@@ -3,10 +3,15 @@ const style = {
         'position': 'relative',
         'height': '100%',
         margin: '0px auto',
-        width: '50%'
+        width: '80%',
+        marginTop: '200px',
+
     },
     intro: {
-
+        'position': 'absolute',
+        'height': '100px',
+        'left': '17%',
+        'top': '20%'
     },
     headingDivider: {
         width: '40%',
@@ -19,6 +24,7 @@ const style = {
     },
     myNameIs: {
         'color': '#ccd6f6',
+        textAlign: 'center',
         display: 'block',
         fontSize: 'clamp(26px,5vw,24px)',
         fontWeight: 'bold'

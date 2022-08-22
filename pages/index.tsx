@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import AboutMe from './AboutMe';
+import MinProjects from './MinProjects';
 import RecentCompanies from './RecentCompanies';
 import SocialConnection from './SocialConnection';
 import Summary from './Summary/index';
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
     <Summary />
     <AboutMe/>
     <RecentCompanies/>
+    <MinProjects/>
     </div>
   )
 }
