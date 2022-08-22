@@ -29,7 +29,7 @@ I also recently launched a course that covers everything you need to build a web
 
       </p>
       <p style={{...style.summary, fontSize: 14}}>
-         <ul>
+         <ul className='custom_ul'>
            <li >JavaScript (ES6+)</li>
            <li >TypeScript</li>
            <li >React</li>
