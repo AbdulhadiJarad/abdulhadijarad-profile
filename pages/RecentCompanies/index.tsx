@@ -43,13 +43,18 @@ const RecentCompanies: NextPage = () => {
         May 2018 - Present
       </section>
       <p
-        style={{ ...style.summary, fontSize: 14 }}
+        style={{
+          width: "100%",
+          color: "rgb(136, 146, 176)",
+          fontSize: "18px",
+        }}
       >
         <ul
           style={{
             listStyle: "none",
             fontSize: 18,
             color: "rgb(136, 146, 176)",
+            margin: "0px auto",
           }}
         >
           <li>

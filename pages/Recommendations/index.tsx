@@ -13,19 +13,9 @@ const Recommendations: NextPage = () => {
         </span>{" "}
         <hr style={style.headingDivider}></hr>
       </section>
-      <div
-        style={{
-          background: "rgb(17, 34, 64)",
-          width: "90%",
-          height: "200px",
-          display: "flex",
-          justifyContent: "evenly",
-          alignItems: "center",
-          margin: "0px auto",
-          marginTop: "60px",
-        }}
-      >
-        <div style={{ flexBasis: "30%", width: "100%", textAlign: "center" }}>
+
+      <div className="recommendationCard">
+        <div className="personCard">
           <Image className="avatar" width={100} height={100} src={Avatar} />
           <div
             style={{
@@ -38,13 +28,7 @@ const Recommendations: NextPage = () => {
             Full Stack Developer
           </div>
         </div>
-        <div
-          style={{
-            flexBasis: "70%",
-            marginRight: "20px",
-            color: "rgb(136, 146, 176)",
-          }}
-        >
+        <div className="recommendationText">
           <blockquote>
             {" "}
             We’ve joined our hands on several projects, and Abdulhadi is one of
@@ -57,19 +41,8 @@ const Recommendations: NextPage = () => {
         </div>
       </div>
 
-      <div
-        style={{
-          background: "rgb(17, 34, 64)",
-          width: "90%",
-          height: "200px",
-          display: "flex",
-          margin: "0px auto",
-          justifyContent: "evenly",
-          alignItems: "center",
-          marginTop: "60px",
-        }}
-      >
-        <div style={{ flexBasis: "30%", width: "100%", textAlign: "center" }}>
+      <div className="recommendationCard">
+        <div className="personCard">
           <Image className="avatar" width={100} height={100} src={Ubai} />
           <div
             style={{
@@ -84,13 +57,7 @@ const Recommendations: NextPage = () => {
             Damascus University
           </div>
         </div>
-        <div
-          style={{
-            flexBasis: "70%",
-            marginRight: "20px",
-            color: "rgb(136, 146, 176)",
-          }}
-        >
+        <div className="recommendationText">
           <blockquote>
             {" "}
             I have known Mr. Jarad for one year as his lecturer and supervised

@@ -26,7 +26,8 @@ const style = {
     summary: {
         width: '90%',
         color: 'rgb(136, 146, 176)',
-        fontSize: '18px'
+        fontSize: '18px',
+        margin: '0px auto !important'
     },
     avatar: {
         borderRadius: '20px'

@@ -21,7 +21,8 @@ const style = {
         maxWidth: '100%',
         color: 'rgb(136, 146, 176)',
         fontSize: '18px',
-        width: '90%'
+        width: '90%',
+        margin:'0px auto'
     },
     avatar: {
         borderRadius: '20px'
