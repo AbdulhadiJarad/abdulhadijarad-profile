@@ -51,11 +51,7 @@ const AboutMe: NextPage = () => {
                 id="image-container"
                 style={{ borderRadius: "5px", overflow: "hidden" }}
               >
-                <Image
-                  id="imageAvatar"
-                  layout="responsive"
-                  src={Avatar}
-                />
+                <Image id="imageAvatar" layout="responsive" src={Avatar} />
                 <div
                   id="backImage"
                   style={{
@@ -70,6 +66,9 @@ const AboutMe: NextPage = () => {
               </div>
             </section>
           </section>
+
+
+          
         </section>
       </section>
     </section>

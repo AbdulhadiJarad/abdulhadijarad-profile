@@ -1,8 +1,9 @@
 const style = {
     root: {
         'position': 'relative',
-        'height': '100vh',
-        width: '100%'
+        // 'height': '100vh',
+        width: '100%',
+        marginBottom: '100px'
     },
     intro: {
       
@@ -19,7 +20,8 @@ const style = {
     summary: {
         maxWidth: '100%',
         color: 'rgb(136, 146, 176)',
-        fontSize: '18px'
+        fontSize: '18px',
+        width: '90%'
     },
     avatar: {
         borderRadius: '20px'
