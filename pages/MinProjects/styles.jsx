@@ -1,17 +1,11 @@
 const style = {
     root: {
         'position': 'relative',
-        'height': '100%',
         margin: '0px auto',
-        width: '80%',
         marginTop: '200px',
 
     },
     intro: {
-        'position': 'absolute',
-        'height': '100px',
-        'left': '17%',
-        'top': '20%'
     },
     headingDivider: {
         width: '40%',
