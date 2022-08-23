@@ -4,10 +4,10 @@ const style = {
         'height': '100vh'
     },
     intro: {
-        'position': 'absolute',
         'height': '100px',
-        'left': '17%',
-        'top': '20%'
+        margin: '0px auto',
+        maxWidth: '700px',
+        minWidth: '400px'
     },
     mainInfo: {
         lineHeight: '80px',
