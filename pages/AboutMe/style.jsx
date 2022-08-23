@@ -4,10 +4,7 @@ const style = {
         'height': '100vh'
     },
     intro: {
-        'position': 'absolute',
-        'height': '100px',
-        'left': '17%'
-
+      
     },
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'

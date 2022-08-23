@@ -1,13 +1,14 @@
 const style = {
     root: {
         'position': 'relative',
-        'height': '100vh'
+        'height': '100vh',
+        marginTop: '100px'
     },
     intro: {
         'height': '100px',
-        margin: '0px auto',
-        maxWidth: '700px',
-        minWidth: '400px'
+        // margin: '0px auto',
+        // maxWidth: '700px',
+        // minWidth: '400px'
     },
     mainInfo: {
         lineHeight: '80px',
