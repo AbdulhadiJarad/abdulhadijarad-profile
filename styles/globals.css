@@ -134,6 +134,12 @@ a {
   filter: hue-rotate(302deg);
 }
 
+.email{
+  transform: rotate(90deg) !important;
+  color: #ccd6f6;
+  margin-bottom: 100px;
+}
+
 .aboutMeWrapper {
   display: flex;
   flex-basis: start;
