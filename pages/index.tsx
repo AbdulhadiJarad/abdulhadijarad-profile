@@ -6,6 +6,7 @@ import RecentCompanies from './RecentCompanies';
 import SocialConnection from './SocialConnection';
 import Summary from './Summary/index';
 import Contact from './Contact';
+import Recommendations from './Recommendations';
 const Home: NextPage = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <Summary />
         <AboutMe />
         <RecentCompanies />
+        <Recommendations />
         <MinProjects />
         <Contact />
       </div>

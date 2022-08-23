@@ -127,6 +127,13 @@ a {
   background: #ccd6f6;
 }
 
+.avatar{
+  margin: 0px auto !important;
+  border-radius: 50%;
+  width: 100% !important;
+  filter: hue-rotate(302deg);
+}
+
 .aboutMeWrapper {
   display: flex;
   flex-basis: start;
@@ -173,4 +180,21 @@ a {
     top: 20;
     border: solid #ccd6f6 2px;
   }
+}
+
+blockquote {
+  quotes: "“""”""‘""’";
+}
+blockquote::before {
+  content: open-quote;
+  color: white;
+}
+
+blockquote::after {
+  content: close-quote;
+  color: white;
+}
+
+blockquote {
+  quotes: "“""”""‘""’";
 }
