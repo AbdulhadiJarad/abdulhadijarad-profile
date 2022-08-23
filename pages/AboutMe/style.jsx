@@ -1,7 +1,8 @@
 const style = {
     root: {
         'position': 'relative',
-        'height': '100vh'
+        'height': '100vh',
+        width: '100%'
     },
     intro: {
       
@@ -16,7 +17,7 @@ const style = {
         fontWeight: 'bold'
     },
     summary: {
-        width: '90%',
+        maxWidth: '100%',
         color: 'rgb(136, 146, 176)',
         fontSize: '18px'
     },

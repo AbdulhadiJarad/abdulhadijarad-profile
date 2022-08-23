@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SocialConnection />
-      <div style={{maxWidth: '800px', margin: '0px auto'}}>
+      <div style={{ margin: '0px auto', maxWidth: 900}}>
         <Summary />
         <AboutMe />
         <RecentCompanies />
