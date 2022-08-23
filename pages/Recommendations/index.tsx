@@ -6,7 +6,7 @@ import Avatar from "../../public/tarek.jpg";
 import Ubai from "../../public/ubai.jpg";
 const Recommendations: NextPage = () => {
   return (
-    <section style={style.root}>
+    <section style={{ ...style.root, marginTop: "100px" }}>
       <section className="headingWrapper">
         <span style={style.myNameIs}>
           <span className="headingNumber">05.</span> Recommendations{" "}
@@ -21,6 +21,7 @@ const Recommendations: NextPage = () => {
           display: "flex",
           justifyContent: "evenly",
           alignItems: "center",
+          margin: "0px auto",
           marginTop: "60px",
         }}
       >
@@ -62,6 +63,7 @@ const Recommendations: NextPage = () => {
           width: "90%",
           height: "200px",
           display: "flex",
+          margin: "0px auto",
           justifyContent: "evenly",
           alignItems: "center",
           marginTop: "60px",

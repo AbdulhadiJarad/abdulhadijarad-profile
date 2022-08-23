@@ -3,8 +3,7 @@ const style = {
         'position': 'relative',
         'height': '100%',
         margin: '0px auto',
-        marginTop: '100px'
-        // width: '50%'
+        width: '100%'
     },
     intro: {
 
