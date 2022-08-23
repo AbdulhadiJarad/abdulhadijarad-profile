@@ -42,8 +42,16 @@ const RecentCompanies: NextPage = () => {
       <section style={{ color: "#ccd6f6", fontSize: 12 }}>
         May 2018 - Present
       </section>
-      <p style={{ ...style.summary, fontSize: 14 }}>
-        <ul style={{ listStyle: "none", fontSize: 18 }}>
+      <p
+        style={{ ...style.summary, fontSize: 14 }}
+      >
+        <ul
+          style={{
+            listStyle: "none",
+            fontSize: 18,
+            color: "rgb(136, 146, 176)",
+          }}
+        >
           <li>
             Write modern, performant, maintainable code for a diverse array of
             client and internal projects
