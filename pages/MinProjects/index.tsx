@@ -1,8 +1,5 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import { style } from "./styles";
-import Avatar from "../../public/avatar.jpg";
 const MinProjects: NextPage = () => {
   return (
     <section style={style.root}>
