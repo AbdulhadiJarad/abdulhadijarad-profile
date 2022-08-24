@@ -5,6 +5,32 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(../fonts/Poppins-Medium.otf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../fonts/Poppins-Bold.otf);
+}
+
+@font-face {
+  font-family: PoppinsItalic;
+  src: url(../fonts/Poppins-Italic.otf);
+}
+
+.italic {
+  font-family: PoppinsItalic !important;
+}
+
+p,
+li,
+div,
+span {
+  font-family: PoppinsMedium;
+}
+
 .recommendationCard {
   background: rgb(17, 34, 64);
   width: 90%;
@@ -74,11 +100,20 @@ body {
   color: rgb(100, 255, 218)
 }
 
+
 .headingWrapper {
   display: flex;
   align-items: center;
-  flex-basis: start
+  flex-basis: start;
+  font-family: PoppinsBold !important;
 }
+
+.personName {
+  color: rgb(100, 255, 218);
+  font-family: PoppinsBold !important;
+}
+
+
 
 .headingDivider {
   width: 26%;
@@ -262,6 +297,3 @@ blockquote::after {
 blockquote {
   quotes: "“""”""‘""’";
 }
-
-
-

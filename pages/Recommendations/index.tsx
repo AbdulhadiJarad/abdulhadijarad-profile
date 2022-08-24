@@ -24,15 +24,16 @@ const Recommendations: NextPage = () => {
               marginTop: "5px",
             }}
           >
-            <span style={{ fontSize: 17 }} className={"companyName"}>
+            <span style={{ fontSize: 17 }} className={"personName"}>
               Tarek Kharsa - <br />
             </span>
-            <span style={{ opacity: 0.9, fontSize: 12, fontStyle: "italic" }}>
+            <span style={{ opacity: 0.9, fontSize: 12 }} className={"italic"}>
               Full Stack Developer
             </span>
           </div>
         </div>
         <div
+          className="italic"
           style={{
             flexBasis: "70%",
             marginRight: "20px",
@@ -40,16 +41,13 @@ const Recommendations: NextPage = () => {
           }}
         >
           <blockquote>
-            <i>
-              {" "}
-              We’ve joined our hands on several projects, and Abdulhadi is one
-              of the best people I had as a partner. I highly recommend his
-              expertise to any person looking for a senior web developer. His
-              ability to tackle any problem is remarkable. Always finds his way
-              to surprise us by making new creative, abstract and elegant
-              solutions. Abdulhadi would become an appreciated member of any
-              team.{" "}
-            </i>
+            {" "}
+            We’ve joined our hands on several projects, and Abdulhadi is one of
+            the best people I had as a partner. I highly recommend his expertise
+            to any person looking for a senior web developer. His ability to
+            tackle any problem is remarkable. Always finds his way to surprise
+            us by making new creative, abstract and elegant solutions. Abdulhadi
+            would become an appreciated member of any team.{" "}
           </blockquote>
         </div>
       </div>
@@ -64,18 +62,19 @@ const Recommendations: NextPage = () => {
               marginTop: "5px",
             }}
           >
-            <span style={{ fontSize: 17 }} className="companyName">
+            <span style={{ fontSize: 17 }} className={"personName"}>
               Dr. Ubai Soundok -
             </span>{" "}
             <br />
-            <span style={{ opacity: 0.9, fontSize: 12, fontStyle: "italic" }}>
+            <span style={{ opacity: 0.9, fontSize: 12 }} className={"italic"}>
               Assistant Professor,
               <br />
-              <span>Damascus University</span>
+              <span className={"italic"}>Damascus University</span>
             </span>
           </div>
         </div>
         <div
+          className="italic"
           style={{
             flexBasis: "70%",
             marginRight: "20px",
@@ -83,17 +82,15 @@ const Recommendations: NextPage = () => {
           }}
         >
           <blockquote>
-            <i>
-              {" "}
-              I have known Mr. Jarad for one year as his lecturer and supervised
-              in his advanced programming course: Programming Languages. Mr.
-              Jarad and his team completed the course and attained a complete
-              mark in the required lab work. During his course, Mr. Jarad
-              demonstrated a team player attitude with good verbal and
-              communication skills. He effectively participated in his lab
-              projects and was an excellent problem solver. In my opinion, he
-              was in the top 10% performing students.{" "}
-            </i>
+            {" "}
+            I have known Mr. Jarad for one year as his lecturer and supervised
+            in his advanced programming course: Programming Languages. Mr. Jarad
+            and his team completed the course and attained a complete mark in
+            the required lab work. During his course, Mr. Jarad demonstrated a
+            team player attitude with good verbal and communication skills. He
+            effectively participated in his lab projects and was an excellent
+            problem solver. In my opinion, he was in the top 10% performing
+            students.{" "}
           </blockquote>
         </div>
       </div>

@@ -1,8 +1,5 @@
 const style = {
     root: {
-        'position': 'relative',
-        'height': '100%',
-        margin: '0px auto',
         // width: '50%'
     },
     intro: {
