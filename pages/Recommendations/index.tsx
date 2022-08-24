@@ -36,7 +36,6 @@ const Recommendations: NextPage = () => {
           className="italic"
           style={{
             flexBasis: "70%",
-            marginRight: "20px",
             color: "rgb(136, 146, 176)",
           }}
         >
@@ -77,7 +76,6 @@ const Recommendations: NextPage = () => {
           className="italic"
           style={{
             flexBasis: "70%",
-            marginRight: "20px",
             color: "rgb(136, 146, 176)",
           }}
         >

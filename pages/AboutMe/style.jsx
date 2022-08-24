@@ -1,7 +1,7 @@
 const style = {
     root: {
-        'position': 'relative',
-        // 'height': '100vh',
+        // 'position': 'relative',
+        'height': 'auto',
         width: '100%',
         marginBottom: '100px'
     },

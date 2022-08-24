@@ -31,6 +31,8 @@ span {
   font-family: PoppinsMedium;
 }
 
+  
+
 .recommendationCard {
   background: rgb(17, 34, 64);
   width: 90%;
@@ -40,17 +42,6 @@ span {
   margin-top: 60px;
   align-items: center;
   border-radius: 10px;
-
-}
-
-.recommendationCard {
-  background: rgb(17, 34, 64);
-  width: 90%;
-  height: auto;
-  display: flex;
-  margin: 0px auto;
-  margin-top: 60px;
-
 }
 
 .personCard {
@@ -236,12 +227,14 @@ a {
 
   .recommendationCard {
     background: rgb(17, 34, 64);
-    width: 90%;
+    width: 95%;
     height: auto;
     display: block;
     margin: 0px auto;
     margin-top: 60px;
-    padding: 10px
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /* padding: 10px */
   }
 
   .personCard {

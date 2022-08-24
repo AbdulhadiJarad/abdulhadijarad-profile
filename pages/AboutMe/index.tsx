@@ -59,7 +59,7 @@ const AboutMe: NextPage = () => {
                     height: "270px",
                     position: "absolute",
                     right: -25,
-                    top: 20,
+                    top: 35,
                     border: "solid #ccd6f6 2px",
                   }}
                 ></div>
