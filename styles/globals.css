@@ -31,7 +31,7 @@ span {
   font-family: PoppinsMedium;
 }
 
-  
+
 
 .recommendationCard {
   background: rgb(17, 34, 64);
@@ -271,11 +271,12 @@ a {
     top: 20;
     border: solid #ccd6f6 2px;
   }
-    blockquote {
-      quotes: "“""”""‘""’";
-      margin-left: 15px;
-      margin-right: 15px;
-    }
+
+  blockquote {
+    quotes: "“""”""‘""’";
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 
