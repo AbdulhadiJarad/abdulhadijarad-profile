@@ -1,28 +1,32 @@
 const style = {
     root: {
-        // 'position': 'relative',
-        'height': 'auto',
-        width: '100%',
-        marginBottom: '100px'
+        'position': 'relative',
+        'height': '100%',
+        margin: '0px auto',
+        width: '100%'
     },
     intro: {
-      
+
+    },
+    headingDivider: {
+        width: '40%',
+        marginLeft: '20px',
+        border: 'solid 1px #233554',
+        background: '#23355'
     },
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'
     },
     myNameIs: {
-        'color': '#ccd6f6', 
+        'color': '#ccd6f6',
         display: 'block',
         fontSize: 'clamp(26px,5vw,24px)',
         fontWeight: 'bold'
     },
     summary: {
-        maxWidth: '100%',
-        color: 'rgb(136, 146, 176)',
-        fontSize: '18px',
         width: '90%',
-        margin:'0px auto'
+        color: 'rgb(136, 146, 176)',
+        fontSize: '18px'
     },
     avatar: {
         borderRadius: '20px'

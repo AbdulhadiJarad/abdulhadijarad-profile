@@ -1,9 +1,6 @@
 const style = {
     root: {
-        'position': 'relative',
-        'height': '100%',
-        margin: '0px auto',
-        width: '50%'
+        // width: '50%'
     },
     intro: {
 
@@ -26,7 +23,8 @@ const style = {
     summary: {
         width: '90%',
         color: 'rgb(136, 146, 176)',
-        fontSize: '18px'
+        fontSize: '18px',
+        margin: '0px auto !important'
     },
     avatar: {
         borderRadius: '20px'
