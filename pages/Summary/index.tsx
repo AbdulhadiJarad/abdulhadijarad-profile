@@ -17,10 +17,11 @@ const Summary: NextPage = () => {
               lineHeight: "80px",
               fontWeight: "bold",
             }}
-          ></span>
+          >
+            {summaryData.job}
+          </span>
         </section>
         <p style={style.summary}>{summaryData.description}</p>
-
         <button style={style.contactMe}>Contact Me !</button>
       </section>
     </section>
