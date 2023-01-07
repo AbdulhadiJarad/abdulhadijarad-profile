@@ -42,14 +42,6 @@ const Volunteering: NextPage = () => {
             <p style={{ marginTop: '30px' }}>Altamayouz Charity</p>
           </div>
         </div>
-        {/* <div style={{ width: '48%', height: '400px', position: 'relative' }}>
-          <img style={{ width: '100%', height: '350px' }} src={English.src} />
-
-          <div style={{ background: 'linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.9) 154%, rgb(0, 0, 0) 126%)', position: 'absolute', bottom: '50px', height: '130px', width: '100%' }}>
-
-          </div>
-          <div style={{ position: 'absolute', bottom: '100px', color: '#ccd6f6'}}>English Tutor </div>
-        </div> */}
       </section>
     </section>
   );
