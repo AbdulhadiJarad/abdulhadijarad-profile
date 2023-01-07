@@ -7,6 +7,9 @@ import SocialConnection from './SocialConnection';
 import Summary from './Summary/index';
 import Contact from './Contact';
 import Recommendations from './Recommendations';
+import Projects from './Projects';
+import Courses from './Courses';
+import Volunteering from './Volunteering';
 const Home: NextPage = () => {
   return (
     <div>
@@ -16,15 +19,20 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SocialConnection />
+    
       <div style={{ margin: '0px auto', maxWidth: 950}}>
         <Summary />
         <AboutMe />
+        <Volunteering/>
+        <Courses/>
         <RecentCompanies />
-        
-        <Recommendations />
+        <Projects />
+      </div>
+      <div style={{ margin: '0px auto', maxWidth: 950 }}>
         <MinProjects />
         <Contact />
       </div>
+        <Recommendations />
     </div>
   );
 }
