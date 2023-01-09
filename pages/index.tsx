@@ -11,6 +11,13 @@ import Projects from './Projects';
 import Courses from './Courses';
 import Volunteering from './Volunteering';
 import Competitions from './Competitions';
+
+export async function getStaticProps() {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+
 const Home: NextPage = () => {
   return (
     <div>
