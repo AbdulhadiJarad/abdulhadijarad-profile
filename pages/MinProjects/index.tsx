@@ -7,7 +7,7 @@ const MinProjects: NextPage = () => {
       <section
         style={{
           display: "flex",
-          justifyContent: "center",
+          justifyContent: "space-evenly",
           marginTop: "30px",
           flexWrap: "wrap",
           gap: 10,
