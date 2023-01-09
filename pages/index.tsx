@@ -36,8 +36,6 @@ const Home: NextPage = () => {
         <Courses/>
         <RecentCompanies />
         <Projects />
-      </div>
-      <div style={{ margin: '0px auto', maxWidth: 950 }}>
         <MinProjects />
         <Contact />
       </div>
