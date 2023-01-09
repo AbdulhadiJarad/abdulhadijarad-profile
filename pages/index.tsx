@@ -10,6 +10,7 @@ import Recommendations from './Recommendations';
 import Projects from './Projects';
 import Courses from './Courses';
 import Volunteering from './Volunteering';
+import Competitions from './Competitions';
 const Home: NextPage = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <div style={{ margin: '0px auto', maxWidth: 950}}>
         <Summary />
         <AboutMe />
+        <Competitions/>
         <Volunteering/>
         <Courses/>
         <RecentCompanies />
