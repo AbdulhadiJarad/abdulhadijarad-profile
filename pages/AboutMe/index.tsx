@@ -32,7 +32,7 @@ const AboutMe: NextPage = () => {
                 </ul>
               </p>
             </section>
-            <section className="imgWrapper">
+            <section style={{height: '100%', position: 'relative'}} className="imgWrapper">
               <div
                 id="image-container"
                 style={{ borderRadius: "5px", overflow: "hidden" }}

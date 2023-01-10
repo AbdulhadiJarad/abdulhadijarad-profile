@@ -41,7 +41,6 @@ const Summary: NextPage = () => {
                 2000, // Waits 1s
                 `${summaryData.job}`, // Types 'One'
                 2000, // Waits 1s
-                'I build customized web projects',
                 () => {
                   console.log('Done typing!'); // Place optional callbacks anywhere in the array
                 }
