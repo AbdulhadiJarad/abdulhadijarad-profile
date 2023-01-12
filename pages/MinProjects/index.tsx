@@ -13,6 +13,7 @@ const MinProjects: NextPage = () => {
           gap: 10,
           width: "100%",
         }}
+        className={'startups'}
       >
         {new Array(9).fill(undefined).map(() => (
           <div

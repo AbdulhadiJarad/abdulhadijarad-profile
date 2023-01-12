@@ -30,7 +30,7 @@ const SocialConnection: NextPage = () => {
 
   return (
     <>
-      <div style={{ position: "fixed", bottom: 0, marginLeft: 50 }}>
+      <div className="socialMediaAlign" style={{ position: "fixed", zIndex: 9999, bottom: 0, marginLeft: 50 }}>
 
         <div
           onMouseLeave={() => onMouseOut("insta")}
@@ -84,7 +84,7 @@ const SocialConnection: NextPage = () => {
         </div>
         <div className="vl"></div>
       </div>
-      <div style={{ position: "fixed", bottom: 0, marginRight: 50, right: 0, height: '460px' }}>
+      <div className="socialMediaAlign" style={{ position: "fixed", zIndex: 999, bottom: 0, marginRight: 50, right: 0, height: '460px' }}>
         <span style={{ color: '#ccd6f6', position: 'absolute', top: 0, right: '-20px', transform: 'rotate(90deg)', width: '40px', }}>
           Abdulhadi.Jarad@gmail.com
         </span>

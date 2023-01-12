@@ -3,7 +3,7 @@ import { style } from "./styles";
 import { recentCompaniesData } from "./data";
 const RecentCompanies: NextPage = () => {
   return (
-    <section style={style.root}>
+    <section className="startups" style={style.root}>
       <section className="headingWrapper">
         <span style={style.myNameIs}>
           <span className="headingNumber">01.</span> Where I’ve Worked{" "}

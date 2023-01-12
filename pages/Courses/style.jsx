@@ -3,7 +3,6 @@ const style = {
         // 'position': 'relative',
         'height': 'auto',
         width: '100%',
-        marginBottom: '100px'
     },
     intro: {
 

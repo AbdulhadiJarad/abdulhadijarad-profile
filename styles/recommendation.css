@@ -2,7 +2,7 @@
     margin: 0px auto !important;
     border-radius: 50%;
     width: 100% !important;
-    filter: hue-rotate(302deg);
+    /* filter: hue-rotate(302deg); */
 }
 
 .recommendationCard {

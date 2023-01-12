@@ -6,6 +6,7 @@ const style = {
 
     },
     intro: {
+        
     },
     headingDivider: {
         width: '40%',

@@ -4,10 +4,11 @@ import Image from "next/image";
 import { style } from "./style";
 import Avatar from "../../public/avatar.jpg";
 import { aboutMeData } from "./data";
+import Overlay from "../Components/Overlay";
 
 const AboutMe: NextPage = () => {
   return (
-    <section style={style.root}>
+    <section className="aboutMeSection" style={style.root}>
       <section style={style.intro}>
         <section style={style.mainInfo}>
           <section className="headingWrapper">
@@ -32,20 +33,20 @@ const AboutMe: NextPage = () => {
                 </ul>
               </p>
             </section>
-            <section style={{height: '100%', position: 'relative'}} className="imgWrapper">
+            <section style={{height: '100%'}} className="imgWrapper">
               <div
                 id="image-container"
                 style={{ borderRadius: "5px", overflow: "hidden" }}
               >
-                <Image id="imageAvatar" layout="responsive" src={Avatar} />
+               <Overlay>
+                  <Image id="imageAvatar" layout="responsive" src={Avatar} /> 
+               </Overlay>
                 <div
                   id="backImage"
                   style={{
-                    width: "270px",
-                    height: "270px",
                     position: "absolute",
-                    right: -25,
-                    top: 35,
+                    right: -20,
+                    top: 20,
                     border: "solid #ccd6f6 2px",
                   }}
                 ></div>
