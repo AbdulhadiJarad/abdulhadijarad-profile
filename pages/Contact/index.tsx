@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import { style } from './styles';
 const Contact: NextPage = () => {
   return (
-    <section style={style.root}>
+    <section id='contact' style={style.root}>
               <span className='headingNumber'>04. What's Next ?</span>
               <span style={style.myNameIs}>Get In Touch</span>
               <div style={{width: '70%', margin:'0px auto'}}>

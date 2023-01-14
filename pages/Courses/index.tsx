@@ -6,7 +6,7 @@ import { style } from "./style";
 const Courses: NextPage = () => {
   
   return (
-    <section className="courses" style={style.root}>
+    <section id="courses" className="courses" style={style.root}>
       <section className="headingWrapper">
         <span style={style.myNameIs}>
           <span className="headingNumber">01.</span> Enrolled Courses{" "}

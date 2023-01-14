@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { style } from "./styles";
 const MinProjects: NextPage = () => {
   return (
-    <section style={style.root}>
+    <section id="projects" style={style.root}>
       <span style={style.myNameIs}>Other Noteworthy Projects </span>
       <section
         style={{

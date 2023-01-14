@@ -8,7 +8,7 @@ import Overlay from "../Components/Overlay";
 
 const AboutMe: NextPage = () => {
   return (
-    <section className="aboutMeSection" style={style.root}>
+    <section id="about" className="aboutMeSection" style={style.root}>
       <section style={style.intro}>
         <section style={style.mainInfo}>
           <section className="headingWrapper">
