@@ -1,7 +1,8 @@
 const style = {
     root: {
         // width: '50%'
-        margin: '0px auto'
+        margin: '0px auto',
+        marginBottom: '100px'
     },
     intro: {
 

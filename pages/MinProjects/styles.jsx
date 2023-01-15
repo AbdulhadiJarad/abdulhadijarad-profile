@@ -2,7 +2,7 @@ const style = {
     root: {
         'position': 'relative',
         margin: '0px auto',
-        marginTop: '200px',
+        marginBottom: '100px'
 
     },
     intro: {

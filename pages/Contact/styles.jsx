@@ -3,6 +3,7 @@ const style = {
         textAlign: 'center',
         margin: '0px auto',
         marginTop: '200px',
+        marginBottom: '100px'
 
     },
     contactMe: {

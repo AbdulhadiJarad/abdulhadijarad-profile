@@ -40,7 +40,7 @@ class Recommendations extends React.Component {
   render() {
     return (
       <section
-        style={{ margin: '0px auto', padding: '30px' }}
+        style={{ margin: '0px auto', padding: '30px', marginBottom: '100px' }}
         id="testimonials-arch"
         className="testimonials section-padding position-re recommendation"
       >

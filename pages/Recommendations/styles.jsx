@@ -4,6 +4,7 @@ const style = {
         'height': '100%',
         margin: '0px auto',
         width: '100%'
+
     },
     intro: {
 

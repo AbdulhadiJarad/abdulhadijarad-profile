@@ -4,7 +4,7 @@ import Overlay from '../Components/Overlay'
 import { style } from "./style";
 
 const Courses: NextPage = () => {
-  
+
   return (
     <section id="courses" className="courses" style={style.root}>
       <section className="headingWrapper">
@@ -13,8 +13,8 @@ const Courses: NextPage = () => {
         </span>{" "}
         <hr className={"headingDivider"}></hr>
       </section>
-  
-      {coursesData.map((course, index) => <section className="coursesWrapper" style={{ width: '100%', flexWrap: 'wrap', flexDirection: (index + 1) % 2 == 0 ? 'row-reverse' : 'row', height: '100%', marginTop: '20px',  alignItems: 'center', backgroundColor: 'rgb(17, 34, 64)', }}>
+
+      {coursesData.map((course, index) => <section className="coursesWrapper" style={{ width: '100%', flexWrap: 'wrap', flexDirection: (index + 1) % 2 == 0 ? 'row-reverse' : 'row', height: '100%', marginTop: '20px', alignItems: 'center', backgroundColor: 'rgb(17, 34, 64)', borderRadius: '12px' }}>
         <div className="courseDescription" style={{ padding: '20px', }}>
           <section style={{ ...style.myNameIs, fontSize: '17px' }}>
             1.{index + 1} {course.name}
@@ -24,7 +24,7 @@ const Courses: NextPage = () => {
           </p>
           <span style={{ color: 'rgb(100, 255, 218)', marginTop: '5px' }} className="italic">issued by <span style={{ color: '#ccd6f6' }}>{course.issuedBy}</span> </span>
         </div>
-        <div className="courseImgWrapper" style={{  padding: '20px' }}>
+        <div className="courseImgWrapper" style={{ padding: '20px' }}>
           <Overlay>
             <img className="certification" src={course.image.src} />
           </Overlay>
