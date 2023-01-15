@@ -25,7 +25,7 @@ const MobileHeader = () => {
     }
 
     return <>
-       <div className="mobileHeader">
+       <div lassName="mobileHeader">
             <input type="checkbox" checked={clicked} id="active" />
             <img onClick={onClick} style={{ width: '30px',  position: 'relative', right: '20px', height: '40px', float: 'right', }} src={Menu.src} />
             <div className="wrapper">

@@ -1,9 +1,11 @@
-const Overlay = ({ children }) => {
+const Overlay = ({ text, children }) => {
 
     return (
         <div className='imgContainer'>
             {children}
-            <div className="overlay"></div>
+         
+            <div className="overlay">
+            </div>
         </div>
     );
 }

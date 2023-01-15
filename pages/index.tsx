@@ -19,6 +19,7 @@ import Gitlab from './Icons/Gitlab';
 import InstagramIcon from './Icons';
 import Linkedin from './Icons/Linkedin';
 import Email from './Icons/Email';
+import ProjectsMobile from './Projects/mobile';
 
 export async function getStaticProps() {
   return {
@@ -53,7 +54,8 @@ const Home: NextPage = () => {
           <Competitions />
           <Courses />
           <RecentCompanies />
-          {/* <Projects /> */}
+          <Projects />
+          <ProjectsMobile/>
           <MinProjects />
           <Contact />
         </div>
