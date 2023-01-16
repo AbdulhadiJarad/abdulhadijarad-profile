@@ -20,7 +20,7 @@ const style = {
     myNameIs: {
         'color': '#ccd6f6',
         display: 'block',
-        fontSize: 'clamp(17px, 1.2vw, 60px)',
+        fontSize: '4vmin',
         textAlign: 'center',
         fontWeight: 'bold',
         // width: '100%',

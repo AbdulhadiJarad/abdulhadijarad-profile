@@ -39,19 +39,15 @@ const AboutMe: NextPage = () => {
             <section style={{ height: '100%' }} className="imgWrapper">
               <div
                 id="image-container"
-                style={{ borderRadius: "5px", overflow: "hidden" }}
+                className="image-container"
+                style={style.imageContainer}
               >
                 <Overlay>
                   <Image id="imageAvatar" layout="responsive" src={Avatar} />
                 </Overlay>
                 <div
                   id="backImage"
-                  style={{
-                    position: "absolute",
-                    right: -20,
-                    top: 20,
-                    border: "solid #ccd6f6 2px",
-                  }}
+                  style={style.backImage}
                 ></div>
               </div>
             </section>

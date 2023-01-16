@@ -16,23 +16,17 @@ const RecentCompanies: NextPage = () => {
       {recentCompaniesData.map((item) => (
         <div>
           <>
-            <section style={{ color: "#ccd6f6", fontSize: 20, marginTop: 30 }}>
+            <section style={style.position}>
               {item.position}{" "}
               <span className="companyName">, {item.company}</span>
             </section>
-            <section className="italic" style={{ color: "#ccd6f6", fontSize: 12 }}>
+            <section className="italic" style={style.date}>
               {item.date}
             </section>
 
             <DownAnimation>
               <p
-                style={{
-                  width: "90%",
-                  color: "rgb(136, 146, 176)",
-                  fontSize: 14,
-                  display: "block",
-                  margin: "0px auto",
-                }}
+                style={style.text}
               >
                 <ul style={{ listStyle: "none", fontSize: 18 }}>
                   {item.responsibilities.map((element) => (

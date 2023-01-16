@@ -11,11 +11,20 @@ const style = {
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'
     },
+    backImage: {
+        position: "absolute",
+        right: -20,
+        top: 20,
+        border: "solid #ccd6f6 2px",
+    },
     myNameIs: {
         'color': '#ccd6f6', 
         display: 'block',
         fontSize: '4vmin',
         fontWeight: 'clamp(22px, 12vw, 80px'
+    },
+    imageContainer: {
+        borderRadius: "5px", overflow: "hidden"
     },
     summary: {
         maxWidth: '100%',

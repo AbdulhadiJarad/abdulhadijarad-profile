@@ -15,6 +15,15 @@ const style = {
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'
     },
+    text: {
+        width: "90%",
+        color: "rgb(136, 146, 176)",
+        fontSize: 14,
+        display: "block",
+        margin: "0px auto",
+    },
+    date: { color: "#ccd6f6", fontSize: 12 },
+    position: { color: "#ccd6f6", fontSize: 20, marginTop: 30 },    
     myNameIs: {
         'color': '#ccd6f6',
         display: 'block',
