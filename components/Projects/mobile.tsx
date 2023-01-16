@@ -3,7 +3,7 @@ import { style } from "./styles";
 import { recentCompaniesData } from "./data";
 import Image from "next/image";
 import MindMover from "../../public/mindmovers.jpg";
-import Overlay from "../Components/Overlay";
+import Overlay from "../../shared/Overlay";
 
 const ProjectsMobile: NextPage = () => {
     return (

@@ -3,11 +3,11 @@ import { coursesData } from "./data";
 import { style } from "./style";
 
 import dynamic from "next/dynamic";
-const DownAnimation = dynamic(() => import("../Components/Animation/DownAnimation"), {
+const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation"), {
   ssr: false,
 });
 
-const Overlay = dynamic(() => import("../Components/Overlay"), {
+const Overlay = dynamic(() => import("../../shared/Overlay"), {
   ssr: false,
 });
 
@@ -37,7 +37,7 @@ const Courses: NextPage = () => {
           </div>
           <div className="courseImgWrapper" style={{ padding: '20px' }}>
             <Overlay>
-              <img alt={`abdulhadi jarad ${course.name}`} className="certification" src={course.image.src} />
+              <img alt={`abdulhadi jarad ${course.name}`} className="certification" src={course.image} />
             </Overlay>
           </div>
         </section>

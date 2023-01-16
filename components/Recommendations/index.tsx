@@ -13,7 +13,7 @@ const Next = dynamic(() => import("../Icons/next.svg"), {
   ssr: false,
 });
 
-const Overlay = dynamic(() => import("../Components/Overlay"), {
+const Overlay = dynamic(() => import("../../shared/Overlay"), {
   ssr: false,
 });
 
@@ -99,9 +99,9 @@ class Recommendations extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                         <Overlay>
-                            <img className="avatar" src={item.avatar.src} alt="" />
-                         </Overlay>
+                          <Overlay>
+                            <img className="avatar" src={item.avatar} alt={item.name} />
+                          </Overlay>
                         </div>
                         <h6 style={{ fontSize: 17 }} className={"personName"}>
                           {item.name}
@@ -113,12 +113,12 @@ class Recommendations extends React.Component {
                     </div>
                   </div>
                   <div className="valign">
-                      <div className="textA">  
-                    <p style={{ color: 'rgb(136, 146, 176)', fontSize: '18px' }}>
+                    <div className="textA">
+                      <p style={{ color: 'rgb(136, 146, 176)', fontSize: '18px' }}>
 
-                      {item.description}
-                    </p>
-                      </div>
+                        {item.description}
+                      </p>
+                    </div>
                   </div>
                 </div>
                 )}

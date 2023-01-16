@@ -5,11 +5,11 @@ import { style } from "./style";
 import { aboutMeData } from "./data";
 import Avatar from "../../public/avatar.jpg";
 
-const Overlay = dynamic(() => import("../Components/Overlay"), {
+const Overlay = dynamic(() => import("../../shared/Overlay"), {
   ssr: false,
 });
 
-const DownAnimation = dynamic(() => import("../Components/Animation/DownAnimation"), {
+const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation"), {
   ssr: false,
 });
 

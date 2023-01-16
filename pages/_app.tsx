@@ -2,7 +2,7 @@ import '../styles/fonts.css'
 import "../styles/recommendation.css";
 import "../styles/globals.css";
 import type { AppProps } from 'next/app'
-import Cursor from './Components/Cursor';
+import Cursor from '../shared/Cursor';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <>

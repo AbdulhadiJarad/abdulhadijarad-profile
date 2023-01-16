@@ -3,47 +3,47 @@ import dynamic from "next/dynamic";
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useSpring } from "framer-motion";
-const AboutMe = dynamic(() => import("./AboutMe"), {
+const AboutMe = dynamic(() => import("../components/AboutMe"), {
   ssr: false,
 });
-const Competitions = dynamic(() => import("./Competitions"), {
+const Competitions = dynamic(() => import("../components/Competitions"), {
   ssr: false,
 });
-const Contact = dynamic(() => import("./Contact"), {
-  ssr: false,
-});
-
-const Summary = dynamic(() => import("./Summary"), {
+const Contact = dynamic(() => import("../components/Contact"), {
   ssr: false,
 });
 
-const Courses = dynamic(() => import("./Courses"), {
-  ssr: false,
-}); const Footer = dynamic(() => import("./Footer"), {
-  ssr: false,
-});
-const WebHeader = dynamic(() => import("./Header/web"), {
+const Summary = dynamic(() => import("../components/Summary"), {
   ssr: false,
 });
 
-const MinProjects = dynamic(() => import("./MinProjects"), {
+const Courses = dynamic(() => import("../components/Courses"), {
+  ssr: false,
+}); const Footer = dynamic(() => import("../components/Footer"), {
   ssr: false,
 });
-const Projects = dynamic(() => import("./Projects"), {
-  ssr: false,
-});
-const RecentCompanies = dynamic(() => import("./RecentCompanies"), {
-  ssr: false,
-});
-const SocialConnection = dynamic(() => import("./SocialConnection"), {
+const WebHeader = dynamic(() => import("../components/Header/web"), {
   ssr: false,
 });
 
-const ProjectsMobile = dynamic(() => import("./Projects/mobile"), {
+const MinProjects = dynamic(() => import("../components/MinProjects"), {
+  ssr: false,
+});
+const Projects = dynamic(() => import("../components/Projects"), {
+  ssr: false,
+});
+const RecentCompanies = dynamic(() => import("../components/RecentCompanies"), {
+  ssr: false,
+});
+const SocialConnection = dynamic(() => import("../components/SocialConnection"), {
   ssr: false,
 });
 
-const Recommendations = dynamic(() => import("./Recommendations"), {
+const ProjectsMobile = dynamic(() => import("../components/Projects/mobile"), {
+  ssr: false,
+});
+
+const Recommendations = dynamic(() => import("../components/Recommendations"), {
   ssr: false,
 });
 

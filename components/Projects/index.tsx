@@ -1,7 +1,7 @@
 import { motion, Variants } from "framer-motion";
 import type { NextPage } from "next";
-import MindMover from "../../public/mindmovers.jpg";
 import { style } from "./styles";
+import MindMover from "../../images/mindmovers.jpg";
 
 interface Props {
   emoji: string;
@@ -67,17 +67,17 @@ const Projects: NextPage = () => {
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px', width: '100%' }}>
         <Card cardVariants={cardVariants}>
           <div style={{ flexBasis: '130%' }}>
-            <img alt="abdulhadi mindmovers" style={{ width: '120%' }} src={MindMover.src} />
+            <img src={'/mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }}  />
           </div>
-       </Card>
-        <div style={{ textAlign: 'right',  height: '100%' }}>
-          <section style={{ width: '500px', position: 'relative', height: 'fit-content',marginBottom: 'auto', marginTop: 'auto', }}>
+        </Card>
+        <div style={{ textAlign: 'right', height: '100%' }}>
+          <section style={{ width: '500px', position: 'relative', height: 'fit-content', marginBottom: 'auto', marginTop: 'auto', }}>
             <p style={{ textAlign: 'right', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
             <p style={{ textAlign: 'right', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
             <section style={{ backgroundColor: '#112240', color: '#a8b2d1m', fontSize: '15px', padding: '20px', zIndex: 99, }}>
-            <p>
+              <p>
                 A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
-            </p>
+              </p>
             </section>
             <section style={{ display: 'flex', marginTop: '10px', flexBasis: '100%', justifyContent: 'flex-end', gap: '40px' }}>
               <p>NextJs</p>
@@ -88,11 +88,11 @@ const Projects: NextPage = () => {
           </section>
         </div>
       </section>
-      {/*  */}  
+      {/*  */}
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px' }}>
-       
+
         <div style={{ textAlign: 'left', flexBasis: '100%', position: 'relative', height: '100%' }}>
-          <section style={{ width: '500px', zIndex: 99, position: 'absolute', height: 'fit-content', bottom: 0, top: 0,  marginBottom: 'auto', marginTop: 'auto', }}>
+          <section style={{ width: '500px', zIndex: 99, position: 'absolute', height: 'fit-content', bottom: 0, top: 0, marginBottom: 'auto', marginTop: 'auto', }}>
             <p style={{ textAlign: 'left', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
             <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
             <section style={{ backgroundColor: '#112240', color: '#a8b2d1m', fontSize: '15px', padding: '20px', zIndex: 99, }}>
@@ -110,7 +110,7 @@ const Projects: NextPage = () => {
         </div>
         <div style={{ flexBasis: '130%' }}>
           <Card cardVariants={cardVariantsSettings}>
-            <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={MindMover.src} />
+            <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={'/mindmovers.jpg'} />
           </Card>
         </div>
       </section>

@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { recentCompaniesData } from "./data";
 import { style } from "./styles";
 import dynamic from "next/dynamic";
-const DownAnimation = dynamic(() => import("../Components/Animation/DownAnimation"), {
+const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation"), {
   ssr: false,
 });
 
