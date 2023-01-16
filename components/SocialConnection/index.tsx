@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 import { useState } from "react";
 import InstagramIcon from "../Icons";
 import Email from "../Icons/email";
-import Gitlab from "../Icons/Gitlab";
-import Linkedin from "../Icons/Linkedin";
+import Gitlab from "../Icons/gitlab";
+import Linkedin from "../Icons/linkedin";
 import Facebook from "../Icons/facebook";
 
 const SocialConnection: NextPage = () => {

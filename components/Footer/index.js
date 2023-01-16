@@ -1,7 +1,7 @@
 import Facebook from '../Icons/facebook';
-import Gitlab from '../Icons/Gitlab';
+import Gitlab from '../Icons/gitlab';
 import InstagramIcon from '../Icons';
-import Linkedin from '../Icons/Linkedin';
+import Linkedin from '../Icons/linkedin';
 import Email from '../Icons/email';
 import { useState } from 'react';
 
