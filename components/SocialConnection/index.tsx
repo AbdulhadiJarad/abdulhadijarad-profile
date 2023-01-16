@@ -8,23 +8,22 @@ import Facebook from "../Icons/facebook";
 
 const SocialConnection: NextPage = () => {
 
-  const [activeIcons, setActiveIcons] = useState({});
+  const [activeIcons, setActiveIcons] = useState<{ [key: string]: boolean }>();
 
-  const onMouseEnter = (name) => {
-    const object = { ...activeIcons };
+  const onMouseEnter = (name: string) => {
+    const object: { [key: string]: boolean } = { ...activeIcons };
     object[name] = true;
     console.log(object, "object");
     setActiveIcons({ ...object });
   };
 
-  const onMouseOut = (name) => {
-    const object = { ...activeIcons };
+  const onMouseOut = (name: string) => {
+    const object: { [key: string]: boolean } = { ...activeIcons };
     object[name] = false;
     console.log(object, "object");
     setActiveIcons({ ...object });
   };
 
-  console.log(activeIcons)
 
   return (
     <>
@@ -37,7 +36,7 @@ const SocialConnection: NextPage = () => {
         >
           <a target="_blank"
             href="https://www.facebook.com/abdalhady.jarad">
-            <Facebook isActive={activeIcons["face"]} />
+            <Facebook isActive={activeIcons?.face} />
           </a>
         </div>
         <div
@@ -46,7 +45,7 @@ const SocialConnection: NextPage = () => {
           style={{ marginTop: "20px", marginLeft: '-16px' }}
         >
           <a target="_blank" href="https://gitlab.com/AbdulhadiJarad">
-            <Gitlab isActive={activeIcons["gitlab"]} />
+            <Gitlab isActive={activeIcons?.gitlab} />
           </a>
         </div>
         <div
@@ -56,7 +55,7 @@ const SocialConnection: NextPage = () => {
         >
           <a target="_blank"
             href="https://www.instagram.com/abd_alhadi_jarad/">
-            <InstagramIcon isActive={activeIcons["insta"]} />
+            <InstagramIcon isActive={activeIcons?.insta} />
           </a>
         </div>
         <div
@@ -68,7 +67,7 @@ const SocialConnection: NextPage = () => {
             target="_blank"
             href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/"
           >
-            <Linkedin isActive={activeIcons["linkedin"]} />
+            <Linkedin isActive={activeIcons?.linkedin} />
           </a>
         </div>
         <div
@@ -77,7 +76,7 @@ const SocialConnection: NextPage = () => {
           style={{ marginLeft: "-15px", marginTop: "20px", }}
         >
           <a href="mailto:abdulhadi.jarad@gmail.com">
-            <Email isActive={activeIcons["email"]} />
+            <Email isActive={activeIcons?.email} />
           </a>
         </div>
         <div className="vl"></div>

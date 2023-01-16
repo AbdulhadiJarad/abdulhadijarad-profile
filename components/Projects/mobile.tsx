@@ -33,7 +33,7 @@ const ProjectsMobile: NextPage = () => {
                     }}>
                         <section style={{ display: 'flex', alignItems: 'center', width: '100%', opacity: '1', zIndex: 99999 }}>
 
-                            <div style={{ textAlign: 'left', width: '100%', height: '100%', position: 'relative', height: '100%' }}>
+                            <div style={{ textAlign: 'left', width: '100%', height: '100%', position: 'relative', }}>
                                 <section style={{ maxWidth: '100%', zIndex: 99, position: 'absolute', height: 'fit-content', bottom: 0, top: 0, marginBottom: 'auto', marginTop: 'auto', }}>
                                     <p style={{ textAlign: 'left', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
                                     <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>

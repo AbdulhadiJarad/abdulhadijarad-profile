@@ -1,4 +1,5 @@
-const style = {
+
+const style: { [key: string]: React.CSSProperties } = {
     root: {
         // 'position': 'relative',
         'height': 'auto',

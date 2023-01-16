@@ -1,14 +1,15 @@
-const style = {
+const style: { [key: string]: React.CSSProperties } = {
     root: {
         'position': 'relative',
+        'height': '100%',
         margin: '0px auto',
-        marginBottom: '100px'
+        width: '100%'
 
     },
     intro: {
-        
+
     },
-  headingDivider: {
+    headingDivider: {
         width: '30%',
         marginLeft: '20px',
         border: 'solid 1px #233554',
@@ -21,7 +22,6 @@ const style = {
         'color': '#ccd6f6',
         display: 'block',
         fontSize: '4vmin',
-        textAlign: 'center',
         fontWeight: 'bold',
         // width: '100%',
     },

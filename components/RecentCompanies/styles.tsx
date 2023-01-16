@@ -1,12 +1,16 @@
-const style = {
+const style: { [key: string]: React.CSSProperties } = {
     root: {
-        // 'position': 'relative',
-        'height': 'auto',
-        width: '100%',
+        // width: '50%'
         marginBottom: '100px'
     },
     intro: {
 
+    },
+    headingDivider: {
+        width: '30%',
+        marginLeft: '20px',
+        border: 'solid 1px #233554',
+        background: '#23355'
     },
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'
@@ -15,14 +19,14 @@ const style = {
         'color': '#ccd6f6',
         display: 'block',
         fontSize: '4vmin',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        // width: '100%',
     },
     summary: {
-        maxWidth: '100%',
+        width: '90%',
         color: 'rgb(136, 146, 176)',
         fontSize: '18px',
-        width: '90%',
-        margin: '0px auto'
+        margin: '0px auto !important'
     },
     avatar: {
         borderRadius: '20px'

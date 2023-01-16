@@ -1,4 +1,4 @@
-const style = {
+const style: { [key: string]: React.CSSProperties } = {
     root: {
         textAlign: 'center',
         margin: '0px auto',

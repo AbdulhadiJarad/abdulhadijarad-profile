@@ -4,10 +4,8 @@ import dynamic from "next/dynamic";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { recommendationsData } from "./data";
+import Slider from 'react-slick'
 
-const Slider = dynamic(() => import("react-slick"), {
-  ssr: false,
-});
 
 const Next = dynamic(() => import("../Icons/next.svg"), {
   ssr: false,
@@ -18,29 +16,27 @@ const Overlay = dynamic(() => import("../../shared/Overlay"), {
 });
 
 class Recommendations extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   renderArrows = () => {
     return (
       <div className="arrows">
         <div className="container">
           <div
-            onClick={() => this.slider.slickNext()}
+            // onClick={() => this.slider.slickNext()}
             className="next cursor-pointer"
             style={{ backgroundColor: '#0a192f' }}
           >
-            <img style={{ width: '30px ', height: '30px', marginTop: "8px" }} src={Next.src} />
+            {/* <img style={{ width: '30px ', height: '30px', marginTop: "8px" }} src={Next.src} /> */}
 
             <span
 
               className="pe-7s-angle-right"></span>
           </div>
           <div
-            onClick={() => this.slider.slickPrev()}
+            // onClick={() => this.slider.slickPrev()}
             className="prev cursor-pointer"
           >
-            <img style={{ width: '30px ', height: '30px', marginTop: "8px", transform: 'rotate(180deg)' }} src={Next.src} />
+            {/* <img style={{ width: '30px ', height: '30px', marginTop: "8px", transform: 'rotate(180deg)' }} src={Next.src} /> */}
             <span className="pe-7s-angle-left"></span>
           </div>
         </div>
@@ -60,7 +56,7 @@ class Recommendations extends React.Component {
               <Slider
                 className="slic-item"
                 {...{
-                  ref: (c) => (this.slider = c),
+                  // ref: (c) => (this.slider = c),
                   dots: false,
                   infinite: true,
                   arrows: false,

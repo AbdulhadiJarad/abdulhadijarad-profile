@@ -1,11 +1,7 @@
 import type { NextPage } from "next";
-import { TypeAnimation } from "react-type-animation";
-import { coursesData, summaryData } from "./data";
+import English from '../../public/tamyouz.jpg';
+import TED from '../../public/ted.jpg';
 import { style } from "./style";
-import English from '../../public/tamyouz.jpg'
-import JCI from '../../public/jci.jpg'
-import TED from '../../public/ted.jpg'
-import Image from "next/image";
 
 const Volunteering: NextPage = () => {
   

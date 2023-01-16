@@ -1,4 +1,4 @@
-export const style = {
+export const style: { [key: string]: React.CSSProperties } = {
     wrapper: { zIndex: 99999999999999 },
     openIcon: { width: '30px', position: 'relative', right: '20px', height: '40px', float: 'right', },
     closeMenu: { width: '30px', height: '40px', float: 'right', marginRight: '20px', marginTop: '100px' },

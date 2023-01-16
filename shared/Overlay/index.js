@@ -1,4 +1,4 @@
-const Overlay = ({ text, children }) => {
+const Overlay = ({ children }) => {
 
     return (
         <div className='imgContainer'>

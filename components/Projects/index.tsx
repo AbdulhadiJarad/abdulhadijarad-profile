@@ -4,9 +4,8 @@ import { style } from "./styles";
 import MindMover from "../../images/mindmovers.jpg";
 
 interface Props {
-  emoji: string;
-  hueA: number;
-  hueB: number;
+  cardVariants: Variants;
+  children: any
 }
 
 const cardVariants: Variants = {

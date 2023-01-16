@@ -1,27 +1,22 @@
-const style = {
+const style: { [key: string]: React.CSSProperties } = {
     root: {
         // 'position': 'relative',
         'height': 'auto',
         width: '100%',
         marginBottom: '100px'
-
     },
     intro: {
-        
+
     },
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'
     },
-    coursesWrapper: (index) => ({ width: '100%', marginTop: index === 0 ? '50px' : '20px', flexWrap: 'wrap', flexDirection: (index + 1) % 2 == 0 ? 'row-reverse' : 'row', height: '100%', alignItems: 'center', backgroundColor: 'rgb(17, 34, 64)', borderRadius: '12px' }),
     myNameIs: {
         'color': '#ccd6f6',
         display: 'block',
         fontSize: '4vmin',
         fontWeight: 'bold'
     },
-    wrapper: { padding: '20px', },
-    description: { marginTop: '10px' },
-    owner: { color: 'rgb(100, 255, 218)', marginTop: '5px' },
     summary: {
         maxWidth: '100%',
         color: 'rgb(136, 146, 176)',
