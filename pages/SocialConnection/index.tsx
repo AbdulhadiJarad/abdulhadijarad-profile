@@ -76,7 +76,7 @@ const SocialConnection: NextPage = () => {
           onMouseEnter={() => onMouseEnter("email")}
           style={{ marginLeft: "-15px", marginTop: "20px", }}
         >
-          <a href="mailto:abdulhadi.jarad@gmail.com" target="_blank">
+          <a href="mailto:abdulhadi.jarad@gmail.com">
             <Email isActive={activeIcons["email"]} />
           </a>
         </div>
@@ -84,7 +84,9 @@ const SocialConnection: NextPage = () => {
       </div>
       <div className="socialMediaAlign" style={{ position: "fixed", zIndex: 999, bottom: 0, marginRight: 50, right: 0, height: '460px' }}>
         <span style={{ color: '#ccd6f6', position: 'absolute', top: 0, right: '-20px', transform: 'rotate(90deg)', width: '40px', }}>
+          <a href="mailto:abdulhadi.jarad@gmail.com">
           Abdulhadi.Jarad@gmail.com
+          </a>
         </span>
         <div style={{ position: 'absolute', bottom: 0 }} className="vl"></div>
       </div>

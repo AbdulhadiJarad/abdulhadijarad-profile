@@ -72,7 +72,7 @@ const Footer = () => {
                 onMouseEnter={() => onMouseEnter("email")}
                 style={{ height: '20px', marginTop: "20px", }}
             >
-                <a href="mailto:abdulhadi.jarad@gmail.com" target="_blank">
+                <a href="mailto:abdulhadi.jarad@gmail.com">
                     <Email isActive={activeIcons["email"]} />
 
                 </a>
