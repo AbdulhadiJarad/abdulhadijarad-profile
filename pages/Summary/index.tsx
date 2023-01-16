@@ -10,7 +10,7 @@ const Summary: NextPage = () => {
       <section style={style.intro}>
         <section style={style.mainInfo}>
           <span className="italic" style={style.myNameIs}>{summaryData.welcome}</span>
-          <span style={{ color: "#ccd6f6", fontWeight: "bold" , fontSize: '9vmin'}}>
+          <span style={{ color: "#ccd6f6", fontWeight: "bold", fontSize: '9vmin' }}>
 
             <TypeAnimation
               sequence={[
@@ -21,7 +21,7 @@ const Summary: NextPage = () => {
                   console.log('Done typing!'); // Place optional callbacks anywhere in the array
                 }
               ]}
-              wrapper="div"
+              wrapper="h1"
               cursor={true}
               repeat={2}
             // style={{ fontSize: '2em' }}
