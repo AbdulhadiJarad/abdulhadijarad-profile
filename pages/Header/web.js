@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import MobileHeader from "./mobile";
 import { style } from "./styles";
-import { webData } from './webData'
+import { webData } from './webData';
 
 const WebHeader = () => {
     useEffect(() => {
@@ -16,11 +16,11 @@ const WebHeader = () => {
             prevScrollpos = currentScrollPos;
         }
     });
-    
+
     return <div id="navbar">
         <MobileHeader />
         <div className="webHeader" style={style.webWrapper}>
-            <a id="resume" style={style.resumeWeb}>
+            <a target={'_blank'} href={'https://drive.google.com/file/d/1b7X4R9qIG08PttvcICn45qVEeAfpMMeJ/view?usp=sharing'} id="resume" style={style.resumeWeb}>
                 Resume
             </a>
             {webData.map((item, index) => <a className="bold" href={`#${item.id}`}><span style={style.webItem}>0{index + 1}.</span> {item.name}</a>)}
