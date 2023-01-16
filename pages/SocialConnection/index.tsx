@@ -84,7 +84,7 @@ const SocialConnection: NextPage = () => {
       </div>
       <div className="socialMediaAlign" style={{ position: "fixed", zIndex: 999, bottom: 0, marginRight: 50, right: 0, height: '460px' }}>
         <span style={{ color: '#ccd6f6', position: 'absolute', top: 0, right: '-20px', transform: 'rotate(90deg)', width: '40px', }}>
-          <a href="mailto:abdulhadi.jarad@gmail.com">
+          <a className="emailAlign" href="mailto:abdulhadi.jarad@gmail.com">
           Abdulhadi.Jarad@gmail.com
           </a>
         </span>

@@ -258,6 +258,10 @@
 
 }
 
+.emailAlign:hover{
+  color: rgb(100, 255, 218);
+}
+
 @media only screen and (max-width: 420px) {
   .layout {
     /* width: fit-content; */
