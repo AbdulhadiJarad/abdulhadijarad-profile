@@ -10,7 +10,7 @@ const ProjectsMobile: NextPage = () => {
         <section className="startups projects-mobile" style={style.root}>
             <section className="headingWrapper">
                 <span style={style.myNameIs}>
-                    <span className="headingNumber">01.</span> Some Things I’ve Built {" "}
+                    <span className="headingNumber">05.</span> Some Things I’ve Built {" "}
                 </span>{" "}
                 <hr style={style.headingDivider}></hr>
             </section>

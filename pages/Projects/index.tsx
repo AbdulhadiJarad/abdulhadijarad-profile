@@ -62,7 +62,7 @@ const Projects: NextPage = () => {
     <section className="startups projects-web" style={style.root}>
       <section className="headingWrapper">
         <span className="bold" style={style.myNameIs}>
-          <span className="headingNumber">01.</span> Some Things I’ve Built {" "}
+          <span className="headingNumber">03.</span> Some Things I’ve Built {" "}
         </span>{" "}
         <hr style={style.headingDivider}></hr>
       </section>

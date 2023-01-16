@@ -1,45 +1,15 @@
 import type { NextPage } from "next";
-import { style } from "./styles";
+import DownAnimation from "../Components/Animation/DownAnimation";
 import { recentCompaniesData } from "./data";
-import { motion, useScroll, useSpring, Variants } from "framer-motion";
+import { style } from "./styles";
 
-const cardVariantsSettings: Variants = {
-  offscreen: {
-    y: 50
-  },
-  onscreen: {
-    y: 0,
-    // rotate: -10,
-    transition: {
-      type: "spring",
-      bounce: 0.3,
-      duration: 0.9
-    }
-  }
-};
-
-function Card({ cardVariants, children }: Props) {
-
-  return (
-    <motion.div
-      // className="card-container"
-      initial="offscreen"
-      whileInView="onscreen"
-      viewport={{ once: true, amount: 0.8 }}
-    >
-      <motion.div variants={cardVariants}>
-        {children}
-      </motion.div>
-    </motion.div>
-  );
-}
 
 const RecentCompanies: NextPage = () => {
   return (
     <section id="experience" className="startups" style={style.root}>
       <section className="headingWrapper">
         <span className="bold" style={style.myNameIs}>
-          <span className="headingNumber">01.</span> Where I’ve Worked{" "}
+          <span className="headingNumber">02.</span> Where I’ve Worked{" "}
         </span>{" "}
         <hr style={style.headingDivider}></hr>
       </section>
@@ -54,7 +24,7 @@ const RecentCompanies: NextPage = () => {
               {item.date}
             </section>
 
-            <Card cardVariants={cardVariantsSettings}>
+            <DownAnimation>
               <p
                 style={{
                   width: "90%",
@@ -70,7 +40,7 @@ const RecentCompanies: NextPage = () => {
                   ))}
                 </ul>
               </p>
-            </Card>
+            </DownAnimation>
           </>
         </div>
       ))}

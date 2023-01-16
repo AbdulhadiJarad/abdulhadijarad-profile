@@ -1,23 +1,21 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
 import AboutMe from './AboutMe';
+import Competitions from './Competitions';
+import Contact from './Contact';
+import Courses from './Courses';
+import Footer from './Footer';
+import WebHeader from './Header/web';
 import MinProjects from './MinProjects';
+import Projects from './Projects';
 import RecentCompanies from './RecentCompanies';
+import Recommendations from './Recommendations';
 import SocialConnection from './SocialConnection';
 import Summary from './Summary/index';
-import Contact from './Contact';
-import Recommendations from './Recommendations';
-import Footer from './Footer';
-import Projects from './Projects';
-import Courses from './Courses';
-import Volunteering from './Volunteering';
-import Competitions from './Competitions';
-import react, { useEffect, useState } from 'react'
-import MobileHeader from './Header/mobile';
-import WebHeader from './Header/web';
 
-import ProjectsMobile from './Projects/mobile';
 import { motion, useScroll, useSpring, Variants } from "framer-motion";
+import ProjectsMobile from './Projects/mobile';
 
 export async function getStaticProps() {
   return {
@@ -25,42 +23,6 @@ export async function getStaticProps() {
   }
 }
 
-interface Props {
-  emoji: string;
-  hueA: number;
-  hueB: number;
-}
-
-const cardVariants: Variants = {
-  offscreen: {
-    y: 500
-  },
-  onscreen: {
-    y: 50,
-    // rotate: -10,
-    transition: {
-      type: "spring",
-      bounce: 0.1,
-      duration: 0.8
-    }
-  }
-};
-
-function Card({ children}: Props) {
-
-  return (
-    <motion.div
-      className="card-container"
-      initial="offscreen"
-      whileInView="onscreen"
-      viewport={{ once: true, amount: 0.8 }}
-    >
-      <motion.div variants={cardVariants}>
-        {children}
-      </motion.div>
-    </motion.div>
-  );
-}
 
 const Home: NextPage = () => {
 
@@ -92,13 +54,13 @@ const Home: NextPage = () => {
         <SocialConnection />
         <Summary />
         <div style={{ maxWidth: 950, margin: '0px auto'}}>
-            <AboutMe />
-          <Competitions />
-          <Courses />
+          <AboutMe />
           <RecentCompanies />
           <Projects />
-          <ProjectsMobile/>
           <MinProjects />
+          <Competitions />
+          <Courses />
+          <ProjectsMobile/>
           <Contact />
         </div>
         <Recommendations />

@@ -10,7 +10,7 @@ const Courses: NextPage = () => {
     <section id="courses" className="courses" style={style.root}>
       <section className="headingWrapper">
         <span className="bold" style={style.myNameIs}>
-          <span className="headingNumber">01.</span> Enrolled Courses{" "}
+          <span className="headingNumber">05.</span> Enrolled Courses{" "}
         </span>{" "}
         <hr className={"headingDivider"}></hr>
       </section>

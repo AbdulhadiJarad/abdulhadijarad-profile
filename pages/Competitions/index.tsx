@@ -9,7 +9,7 @@ const RecentCompanies: NextPage = () => {
     <section id="startups" className="startups" style={style.root}>
       <section className="headingWrapper">
         <span className="bold" style={style.myNameIs}>
-          <span className="headingNumber">01.</span> Startups !{" "}
+          <span className="headingNumber">04.</span> Startups !{" "}
         </span>{" "}
         <hr style={style.headingDivider}></hr>
       </section>
