@@ -28,7 +28,7 @@ const Footer = () => {
                 onMouseEnter={() => onMouseEnter("face")}
                 style={{ height: "20px", marginTop: '20px' }}
             >
-                <a target="_blank"
+                <a rel="noreferrer" target="_blank"
                     href="https://www.facebook.com/abdalhady.jarad">
                     <Facebook isActive={activeIcons["face"]} />
                 </a>
@@ -38,7 +38,7 @@ const Footer = () => {
                 onMouseEnter={() => onMouseEnter("gitlab")}
                 style={{ marginTop: "20px", height: '20px' }}
             >
-                <a target="_blank" href="https://gitlab.com/AbdulhadiJarad">
+                <a rel="noreferrer" target="_blank" href="https://gitlab.com/AbdulhadiJarad">
                     <Gitlab isActive={activeIcons["gitlab"]} />
 
                 </a>
@@ -48,7 +48,7 @@ const Footer = () => {
                 onMouseEnter={() => onMouseEnter("insta")}
                 style={{ marginTop: "20px", height: '20px' }}
             >
-                <a target="_blank"
+                <a rel="noreferrer" target="_blank"
                     href="https://www.instagram.com/abd_alhadi_jarad/">
                     <InstagramIcon isActive={activeIcons["insta"]} />
 
@@ -59,7 +59,7 @@ const Footer = () => {
                 onMouseEnter={() => onMouseEnter("linkedin")}
                 style={{ height: '20px', marginTop: "20px" }}
             >
-                <a
+                <a rel="noreferrer"
                     target="_blank"
                     href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/"
                 >
@@ -72,7 +72,7 @@ const Footer = () => {
                 onMouseEnter={() => onMouseEnter("email")}
                 style={{ height: '20px', marginTop: "20px", }}
             >
-                <a href="mailto:abdulhadi.jarad@gmail.com">
+                <a rel="noreferrer" href="mailto:abdulhadi.jarad@gmail.com">
                     <Email isActive={activeIcons["email"]} />
 
                 </a>

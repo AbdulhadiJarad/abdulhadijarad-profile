@@ -3,6 +3,7 @@ import { coursesData } from "./data";
 import { style } from "./style";
 
 import dynamic from "next/dynamic";
+import { Fragment } from "react";
 const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation"), {
   ssr: false,
 });
@@ -24,24 +25,26 @@ const Courses: NextPage = () => {
         <hr className={"headingDivider"}></hr>
       </section>
 
-      {coursesData.map((course, index) => <DownAnimation>
-        <section className="coursesWrapper" style={{...style.coursesWrapper, marginTop: index === 0 ? '50px' : '20px', flexWrap: 'wrap', flexDirection: (index + 1) % 2 == 0 ? 'row-reverse' : 'row'}}>
-          <div className="courseDescription" style={style.wrapper}>
-            <section style={{...style.myNameIs, fontSize: '17px'}}>
-              1.{index + 1} {course.name}
-            </section>
-            <p style={style.description}>
-              {course.description}
-            </p>
-            <span style={style.owner} className="italic">issued by <span style={{ color: '#ccd6f6' }}>{course.issuedBy}</span> </span>
-          </div>
-          <div className="courseImgWrapper" style={{ padding: '20px' }}>
-            <Overlay>
-              <img alt={`abdulhadi jarad ${course.name}`} className="certification" src={course.image} />
-            </Overlay>
-          </div>
-        </section>
-      </DownAnimation>)}
+      {coursesData.map((course, index) => <Fragment key={course.name}>
+        <DownAnimation>
+          <section className="coursesWrapper" style={{ ...style.coursesWrapper, marginTop: index === 0 ? '50px' : '20px', flexWrap: 'wrap', flexDirection: (index + 1) % 2 == 0 ? 'row-reverse' : 'row' }}>
+            <div className="courseDescription" style={style.wrapper}>
+              <section style={{ ...style.myNameIs, fontSize: '17px' }}>
+                1.{index + 1} {course.name}
+              </section>
+              <p style={style.description}>
+                {course.description}
+              </p>
+              <span style={style.owner} className="italic">issued by <span style={{ color: '#ccd6f6' }}>{course.issuedBy}</span> </span>
+            </div>
+            <div className="courseImgWrapper" style={{ padding: '20px' }}>
+              <Overlay>
+                <img alt={`abdulhadi jarad ${course.name}`} className="certification" src={course.image} />
+              </Overlay>
+            </div>
+          </section>
+        </DownAnimation>
+      </Fragment>)}
     </section>
   );
 };

@@ -90,7 +90,7 @@ class Recommendations extends React.Component {
                   ],
                 }}
               >
-                {recommendationsData.map(item => <div className="item">
+                {recommendationsData.map(item => <div key={item.name} className="item">
                   <div className="info inf-lrg valign">
                     <div className="cont">
                       <div className="author">

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { style } from "./style";
 import { aboutMeData } from "./data";
 import Avatar from "../../public/avatar.jpg";
+import { Fragment } from "react";
 
 const Overlay = dynamic(() => import("../../shared/Overlay"), {
   ssr: false,
@@ -26,8 +27,8 @@ const AboutMe: NextPage = () => {
           </section>
           <section className="aboutMeWrapper">
             <section className="aboutMe">
-              {aboutMeData.elements.map((item) => (
-                <p style={style.summary}>{item}</p>
+              {aboutMeData.elements.map((item: string, index) => (
+                <p key={`summary-${index}`} style={style.summary}>{item}</p>
               ))}
               <p style={style.summary}>
                 Here are a few technologies I’ve been working with recently:
@@ -35,9 +36,11 @@ const AboutMe: NextPage = () => {
               <p style={{ ...style.summary, fontSize: 14 }}>
                 <ul className="custom_ul">
                   {aboutMeData.skills.map((item) => (
-                      <DownAnimation>
-                      <li>{item}</li>
-                    </DownAnimation>
+                      <Fragment key={`${item}`}>
+                        <DownAnimation>
+                          <li>{item}</li>
+                        </DownAnimation>
+                      </Fragment>
                   ))}
                 </ul>
               </p>

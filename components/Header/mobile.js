@@ -36,8 +36,8 @@ const MobileHeader = () => {
 
                 <img onClick={closeMenu} style={style.closeMenu} src={Close.src} />
                 <ul >
-                    {webData.map((item, index) => <li ><a onClick={() => onClickRoute(item.id)} href="#home" style={{ fontSize: '4vmin' }}><span style={style.item}>0{index + 1}.</span> {item.name}</a></li>)}
-                    <a target={'_blank'} href="https://drive.google.com/file/d/1b7X4R9qIG08PttvcICn45qVEeAfpMMeJ/view?usp=sharing" id="resume" style={style.resume}>
+                    {webData.map((item, index) => <li key={item.id}><a rel="noreferrer" onClick={() => onClickRoute(item.id)} href="#home" style={{ fontSize: '4vmin' }}><span style={style.item}>0{index + 1}.</span> {item.name}</a></li>)}
+                    <a rel="noreferrer" target={'_blank'} href="https://drive.google.com/file/d/1b7X4R9qIG08PttvcICn45qVEeAfpMMeJ/view?usp=sharing" id="resume" style={style.resume}>
                         Resume
                     </a>
                 </ul>

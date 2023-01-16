@@ -16,7 +16,7 @@ const RecentCompanies: NextPage = () => {
         <hr style={style.headingDivider}></hr>
       </section>
       {recentCompaniesData.map((item) => (
-        <div>
+        <div key={item.company}>
           <>
             <section style={{ color: "#ccd6f6", fontSize: 20, marginTop: 30 }}>
               {item.position}{" "}
@@ -38,7 +38,7 @@ const RecentCompanies: NextPage = () => {
               >
                 <ul style={{ listStyle: "none", fontSize: 18 }}>
                   {item.responsibilities.map((element) => (
-                    <li>{element}</li>
+                    <li key={element}>{element}</li>
                   ))}
                 </ul>
               </p>

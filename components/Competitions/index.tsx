@@ -17,8 +17,8 @@ const RecentCompanies: NextPage = () => {
         </span>{" "}
         <hr style={style.headingDivider}></hr>
       </section>
-      {recentCompaniesData.map((item) => (
-        <div>
+      {recentCompaniesData.map((item, index) => (
+        <div key={`${item.company}-${index}`}>
           <>
             <section style={style.position}>
               {item.position}{" "}
@@ -34,7 +34,7 @@ const RecentCompanies: NextPage = () => {
               >
                 <ul style={{ listStyle: "none", fontSize: 18 }}>
                   {item.responsibilities.map((element) => (
-                    <li>{element}</li>
+                    <li key={element}>{element}</li>
                   ))}
                 </ul>
               </p>
