@@ -12,7 +12,6 @@ const SocialConnection: NextPage = () => {
 
   const onMouseEnter = (name) => {
     const object = { ...activeIcons };
-    console.log("hey");
     object[name] = true;
     console.log(object, "object");
     setActiveIcons({ ...object });
@@ -20,7 +19,6 @@ const SocialConnection: NextPage = () => {
 
   const onMouseOut = (name) => {
     const object = { ...activeIcons };
-    console.log("hey");
     object[name] = false;
     console.log(object, "object");
     setActiveIcons({ ...object });
@@ -33,8 +31,8 @@ const SocialConnection: NextPage = () => {
       <div className="socialMediaAlign" style={{ position: "fixed", zIndex: 9999, bottom: 0, marginLeft: 50 }}>
 
         <div
-          onMouseLeave={() => onMouseOut("insta")}
-          onMouseEnter={() => onMouseEnter("insta")}
+          onMouseLeave={() => onMouseOut("face")}
+          onMouseEnter={() => onMouseEnter("face")}
           style={{ marginTop: "20px", marginLeft: '-25px' }}
         >
           <a target="_blank"

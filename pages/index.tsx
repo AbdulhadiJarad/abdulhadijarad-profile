@@ -7,6 +7,7 @@ import SocialConnection from './SocialConnection';
 import Summary from './Summary/index';
 import Contact from './Contact';
 import Recommendations from './Recommendations';
+import Footer from './Footer';
 import Projects from './Projects';
 import Courses from './Courses';
 import Volunteering from './Volunteering';
@@ -14,11 +15,7 @@ import Competitions from './Competitions';
 import react, { useEffect, useState } from 'react'
 import MobileHeader from './Header/mobile';
 import WebHeader from './Header/web';
-import Facebook from './Icons/facebook';
-import Gitlab from './Icons/Gitlab';
-import InstagramIcon from './Icons';
-import Linkedin from './Icons/Linkedin';
-import Email from './Icons/Email';
+
 import ProjectsMobile from './Projects/mobile';
 import { motion, useScroll, useSpring, Variants } from "framer-motion";
 
@@ -91,15 +88,11 @@ const Home: NextPage = () => {
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
         <WebHeader />
-    
-      {/* <MobileHeader /> */}
       {!loading ? <>
         <SocialConnection />
         <Summary />
         <div style={{ maxWidth: 950, margin: '0px auto'}}>
             <AboutMe />
-         
-          {/* <AboutMe /> */}
           <Competitions />
           <Courses />
           <RecentCompanies />
@@ -109,60 +102,7 @@ const Home: NextPage = () => {
           <Contact />
         </div>
         <Recommendations />
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 50 }}>
-          <div
-            // onMouseLeave={() => onMouseOut("insta")}
-            // onMouseEnter={() => onMouseEnter("insta")}
-            style={{ height: "20px", marginTop: '20px' }}
-          >
-            <a target="_blank"
-              href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/">
-              <Facebook />
-            </a>
-          </div>
-          <div
-            // onMouseLeave={() => onMouseOut("gitlab")}
-            // onMouseEnter={() => onMouseEnter("gitlab")}
-            style={{ marginTop: "20px", height: '20px' }}
-          >
-            <a target="_blank" href="https://gitlab.com/AbdulhadiJarad">
-              <Gitlab />
-            </a>
-          </div>
-          <div
-            // onMouseLeave={() => onMouseOut("insta")}
-            // onMouseEnter={() => onMouseEnter("insta")}
-            style={{ marginTop: "20px", height: '20px' }}
-          >
-            <a target="_blank"
-              href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/">
-              <InstagramIcon />
-            </a>
-          </div>
-          <div
-            // onMouseLeave={() => onMouseOut("linkedin")}
-            // onMouseEnter={() => onMouseEnter("linkedin")}
-            style={{ height: '20px', marginTop: "20px" }}
-          >
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/"
-            >
-              <Linkedin />
-            </a>
-          </div>
-          <div
-            // onMouseLeave={() => onMouseOut("email")}
-            // onMouseEnter={() => onMouseEnter("email")}
-            style={{ height: '20px', marginTop: "20px", }}
-          >
-            <a href="mailto:abdulhadi.jarad@gmail.com" target="_blank">
-              <Email />
-            </a>
-          </div>
-        </div>
-        <hr style={{ margin: '0px auto', marginTop: '25px', position: 'relative', width: '20%' }} className={"headingDivider"}></hr>
-        <p style={{ textAlign: 'center', fontSize: '15px', marginBottom: '50px', marginTop: '15px' }}>Designed & Coded by Abdulhadi Jarad</p>
+        <Footer />
       </> : <></>}
     </div>
   );

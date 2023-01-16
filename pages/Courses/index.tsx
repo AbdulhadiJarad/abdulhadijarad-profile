@@ -18,7 +18,7 @@ const Courses: NextPage = () => {
       {coursesData.map((course, index) => <DownAnimation>
         <section className="coursesWrapper" style={style.coursesWrapper(index)}>
           <div className="courseDescription" style={style.wrapper}>
-            <section style={style.myNameIs}>
+            <section style={{...style.myNameIs, fontSize: '17px'}}>
               1.{index + 1} {course.name}
             </section>
             <p style={style.description}>
