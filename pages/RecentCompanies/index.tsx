@@ -38,7 +38,7 @@ const RecentCompanies: NextPage = () => {
   return (
     <section id="experience" className="startups" style={style.root}>
       <section className="headingWrapper">
-        <span style={style.myNameIs}>
+        <span className="bold" style={style.myNameIs}>
           <span className="headingNumber">01.</span> Where I’ve Worked{" "}
         </span>{" "}
         <hr style={style.headingDivider}></hr>
@@ -48,9 +48,9 @@ const RecentCompanies: NextPage = () => {
           <>
             <section style={{ color: "#ccd6f6", fontSize: 20, marginTop: 30 }}>
               {item.position}{" "}
-              <span className="companyName">@ {item.company}</span>
+              <span className="companyName italic">@ {item.company}</span>
             </section>
-            <section style={{ color: "#ccd6f6", fontSize: 12 }}>
+            <section className="italic" style={{ color: "#ccd6f6", fontSize: 12 }}>
               {item.date}
             </section>
 

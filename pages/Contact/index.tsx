@@ -9,7 +9,7 @@ const Contact: NextPage = () => {
                 <p style={{color: 'rgb(136, 146, 176)', fontSize: '18px'}}>
                 Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
               </p>
-              <button style={style.contactMe}>Say Hello !</button>
+              <button className='button-hover medium' style={style.contactMe}>Say Hello !</button>
               </div>
     </section>
   )

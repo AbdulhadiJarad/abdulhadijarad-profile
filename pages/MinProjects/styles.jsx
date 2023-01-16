@@ -8,8 +8,8 @@ const style = {
     intro: {
         
     },
-    headingDivider: {
-        width: '40%',
+  headingDivider: {
+        width: '30%',
         marginLeft: '20px',
         border: 'solid 1px #233554',
         background: '#23355'
@@ -19,10 +19,11 @@ const style = {
     },
     myNameIs: {
         'color': '#ccd6f6',
-        textAlign: 'center',
         display: 'block',
-        fontSize: 'clamp(26px,5vw,24px)',
-        fontWeight: 'bold'
+        fontSize: 'clamp(17px, 1.2vw, 60px)',
+        textAlign: 'center',
+        fontWeight: 'bold',
+        // width: '100%',
     },
     summary: {
         width: '90%',

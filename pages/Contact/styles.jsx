@@ -25,7 +25,7 @@ const style = {
         'top': '20%'
     },
     headingDivider: {
-        width: '40%',
+        width: '30%',
         marginLeft: '20px',
         border: 'solid 1px #233554',
         background: '#23355'
@@ -35,10 +35,10 @@ const style = {
     },
     myNameIs: {
         'color': '#ccd6f6',
-        textAlign: 'center',
         display: 'block',
-        fontSize: '45px',
-        fontWeight: 'bold'
+        fontSize: '4vmin',
+        fontWeight: 'bold',
+        // width: '100%',
     },
     summary: {
         width: '90%',

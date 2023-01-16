@@ -295,7 +295,11 @@ body {
 }
 
 .bold {
-  font-family: PoppinsItalic !important;
+  font-family: PoppinsBold !important;
+}
+
+.medium{
+  font-family: PoppinsMedium;
 }
 
 p,
@@ -352,12 +356,17 @@ span {
   width: 100% !important;
 }
 
+hr{
+  background-color: rgb(35, 53, 84);
+}
+
 #image-container:hover #backImage {
   transform: translate(-10px, -5px) !important;
 }
 
 .headingNumber {
-  color: rgb(100, 255, 218)
+  color: rgb(100, 255, 218);
+    font-family: PoppinsItalic !important;
 }
 
 .companyName {
@@ -414,7 +423,7 @@ li::before {
   height: 0;
   width: 0;
   left: -1em;
-  top: 0.9em;
+  top: 1.2em;
   position: relative;
 }
 
@@ -9684,7 +9693,7 @@ section.next-prog.section-padding {
 }
 
 /*  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"); */
 
 
 
@@ -10710,6 +10719,10 @@ h1 {
   font-size: 1.5vmin;
 }
 
+
+.button-hover:hover {
+      background-color: rgb(100 255 218 / 20%) !important;
+}
 
 #resume:hover {
   background-color: rgb(100 255 218 / 20%) !important;

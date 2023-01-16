@@ -13,7 +13,7 @@ const AboutMe: NextPage = () => {
       <section style={style.intro}>
         <section style={style.mainInfo}>
           <section className="headingWrapper">
-            <span style={style.myNameIs}>
+            <span className="bold" style={style.myNameIs}>
               <span className="headingNumber">01.</span> About Me{" "}
             </span>{" "}
             <hr className={"headingDivider"}></hr>

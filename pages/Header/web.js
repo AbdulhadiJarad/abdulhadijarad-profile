@@ -22,7 +22,7 @@ const WebHeader = () => {
             <a id="resume" style={{ border: 'solid 1px #64ffda', width: '100px', borderRadius: '5px' }}>
                 Resume
             </a>
-            {webData.map((item, index) => <a href={`#${item.id}`}><span style={{ color: '#64ffda', marginRight: '5px' }}>0{index + 1}.</span> {item.name}</a>)}
+            {webData.map((item, index) => <a className="bold" href={`#${item.id}`}><span style={{ color: '#64ffda', marginRight: '5px' }}>0{index + 1}.</span> {item.name}</a>)}
         </div>
     </div>
 }

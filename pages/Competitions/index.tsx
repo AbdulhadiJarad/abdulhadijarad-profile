@@ -8,7 +8,7 @@ const RecentCompanies: NextPage = () => {
   return (
     <section id="startups" className="startups" style={style.root}>
       <section className="headingWrapper">
-        <span style={style.myNameIs}>
+        <span className="bold" style={style.myNameIs}>
           <span className="headingNumber">01.</span> Startups !{" "}
         </span>{" "}
         <hr style={style.headingDivider}></hr>
@@ -20,7 +20,7 @@ const RecentCompanies: NextPage = () => {
               {item.position}{" "}
               <span className="companyName">, {item.company}</span>
             </section>
-            <section style={{ color: "#ccd6f6", fontSize: 12 }}>
+            <section className="italic" style={{ color: "#ccd6f6", fontSize: 12 }}>
               {item.date}
             </section>
 

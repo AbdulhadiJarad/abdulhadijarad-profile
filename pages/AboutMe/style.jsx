@@ -14,8 +14,8 @@ const style = {
     myNameIs: {
         'color': '#ccd6f6', 
         display: 'block',
-        fontSize: 'clamp(26px,5vw,24px)',
-        fontWeight: 'bold'
+        fontSize: '4vmin',
+        fontWeight: 'clamp(22px, 12vw, 80px'
     },
     summary: {
         maxWidth: '100%',

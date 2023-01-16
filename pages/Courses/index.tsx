@@ -48,7 +48,7 @@ const Courses: NextPage = () => {
   return (
     <section id="courses" className="courses" style={style.root}>
       <section className="headingWrapper">
-        <span style={style.myNameIs}>
+        <span className="bold" style={style.myNameIs}>
           <span className="headingNumber">01.</span> Enrolled Courses{" "}
         </span>{" "}
         <hr className={"headingDivider"}></hr>

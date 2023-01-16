@@ -5,7 +5,7 @@ import { style } from "./styles";
 const MinProjects: NextPage = () => {
   return (
     <section id="projects" style={style.root}>
-      <span style={style.myNameIs}>Other Noteworthy Projects </span>
+      <span className="bold" style={style.myNameIs}>Other Noteworthy Projects </span>
       <section
         style={{
           display: "flex",
