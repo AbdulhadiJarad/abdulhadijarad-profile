@@ -5,6 +5,7 @@ import { style } from "./style";
 import Avatar from "../../public/avatar.jpg";
 import { aboutMeData } from "./data";
 import Overlay from "../Components/Overlay";
+import DownAnimation from "../Components/Animation/DownAnimation";
 
 const AboutMe: NextPage = () => {
   return (
@@ -28,19 +29,21 @@ const AboutMe: NextPage = () => {
               <p style={{ ...style.summary, fontSize: 14 }}>
                 <ul className="custom_ul">
                   {aboutMeData.skills.map((item) => (
-                    <li>{item}</li>
+                      <DownAnimation>
+                      <li>{item}</li>
+                    </DownAnimation>
                   ))}
                 </ul>
               </p>
             </section>
-            <section style={{height: '100%'}} className="imgWrapper">
+            <section style={{ height: '100%' }} className="imgWrapper">
               <div
                 id="image-container"
                 style={{ borderRadius: "5px", overflow: "hidden" }}
               >
-               <Overlay>
-                  <Image id="imageAvatar" layout="responsive" src={Avatar} /> 
-               </Overlay>
+                <Overlay>
+                  <Image id="imageAvatar" layout="responsive" src={Avatar} />
+                </Overlay>
                 <div
                   id="backImage"
                   style={{

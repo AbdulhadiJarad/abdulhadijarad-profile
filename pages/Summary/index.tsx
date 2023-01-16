@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import { TypeAnimation } from "react-type-animation";
 import { summaryData } from "./data";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { style } from "./style";
+
 const Summary: NextPage = () => {
 
   return (
@@ -53,6 +55,12 @@ const Summary: NextPage = () => {
           </span>
         </section>
         <p className="italic" style={style.summary}>{summaryData.description}</p>
+        {/* <motion.button
+          animate={{ scale: 1.2 }}
+          transition={{ delay: 1, yoyo: Infinity }}
+        >
+          My Button
+        </motion.button> */}
         <button style={style.contactMe}>Contact Me !</button>
       </section>
     </section>

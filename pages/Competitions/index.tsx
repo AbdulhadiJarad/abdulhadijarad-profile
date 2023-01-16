@@ -1,6 +1,9 @@
 import type { NextPage } from "next";
 import { style } from "./styles";
 import { recentCompaniesData } from "./data";
+import DownAnimation from "../Components/Animation/DownAnimation";
+
+
 const RecentCompanies: NextPage = () => {
   return (
     <section id="startups" className="startups" style={style.root}>
@@ -21,21 +24,23 @@ const RecentCompanies: NextPage = () => {
               {item.date}
             </section>
 
-            <p
-              style={{
-                width: "90%",
-                color: "rgb(136, 146, 176)",
-                fontSize: 14,
-                display: "block",
-                margin: "0px auto",
-              }}
-            >
-              <ul style={{ listStyle: "none", fontSize: 18 }}>
-                {item.responsibilities.map((element) => (
-                  <li>{element}</li>
-                ))}
-              </ul>
-            </p>
+            <DownAnimation>
+              <p
+                style={{
+                  width: "90%",
+                  color: "rgb(136, 146, 176)",
+                  fontSize: 14,
+                  display: "block",
+                  margin: "0px auto",
+                }}
+              >
+                <ul style={{ listStyle: "none", fontSize: 18 }}>
+                  {item.responsibilities.map((element) => (
+                    <li>{element}</li>
+                  ))}
+                </ul>
+              </p>
+            </DownAnimation>
           </>
         </div>
       ))}

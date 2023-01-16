@@ -6,6 +6,8 @@ import { useState } from "react";
 
 const MobileHeader = () => {
 
+   
+
     const [clicked, setClicked] = useState(false);
 
     const onClick = () => {
@@ -25,12 +27,13 @@ const MobileHeader = () => {
     }
 
     return <>
-       <div lassName="mobileHeader">
+
+       <div style={{zIndex: 99999999999999}} className="mobileHeader">
             <input type="checkbox" checked={clicked} id="active" />
             <img onClick={onClick} style={{ width: '30px',  position: 'relative', right: '20px', height: '40px', float: 'right', }} src={Menu.src} />
             <div className="wrapper">
             
-                <img onClick={closeMenu} style={{ width: '30px', height: '40px', float: 'right', marginRight: '20px', marginTop: '120px' }} src={Close.src} />
+                <img onClick={closeMenu} style={{ width: '30px', height: '40px', float: 'right', marginRight: '20px', marginTop: '100px' }} src={Close.src} />
                 <ul style={{ listStyle: 'none !important' }}>
                 
                     {webData.map((item, index) => <li ><a onClick={() => onClickRoute(item.id)} href="#home" style={{ fontSize: '4vmin' }}><span style={{ color: '#64ffda', marginRight: '5px' }}>0{index + 1}.</span> {item.name}</a></li>)}
