@@ -2,7 +2,7 @@ import Facebook from '../Icons/facebook';
 import Gitlab from '../Icons/Gitlab';
 import InstagramIcon from '../Icons';
 import Linkedin from '../Icons/Linkedin';
-import Email from '../Icons/Email';
+import Email from '../Icons/email';
 import { useState } from 'react';
 
 const Footer = () => {
