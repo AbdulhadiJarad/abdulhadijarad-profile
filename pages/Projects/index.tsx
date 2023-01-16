@@ -1,9 +1,7 @@
+import { motion, Variants } from "framer-motion";
 import type { NextPage } from "next";
-import { style } from "./styles";
-import { recentCompaniesData } from "./data";
-import Image from "next/image";
 import MindMover from "../../public/mindmovers.jpg";
-import { motion, useScroll, useSpring, Variants } from "framer-motion";
+import { style } from "./styles";
 
 interface Props {
   emoji: string;
@@ -69,7 +67,7 @@ const Projects: NextPage = () => {
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px', width: '100%' }}>
         <Card cardVariants={cardVariants}>
           <div style={{ flexBasis: '130%' }}>
-            <img style={{ width: '120%' }} src={MindMover.src} />
+            <img alt="abdulhadi mindmovers" style={{ width: '120%' }} src={MindMover.src} />
           </div>
        </Card>
         <div style={{ textAlign: 'right',  height: '100%' }}>
@@ -112,7 +110,7 @@ const Projects: NextPage = () => {
         </div>
         <div style={{ flexBasis: '130%' }}>
           <Card cardVariants={cardVariantsSettings}>
-            <img style={{ width: '100%' }} src={MindMover.src} />
+            <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={MindMover.src} />
           </Card>
         </div>
       </section>

@@ -1,7 +1,11 @@
 import type { NextPage } from "next";
 import { style } from "./styles";
 import { recentCompaniesData } from "./data";
-import DownAnimation from "../Components/Animation/DownAnimation";
+import dynamic from "next/dynamic";
+const DownAnimation = dynamic(() => import("../Components/Animation/DownAnimation"), {
+  ssr: false,
+});
+
 
 
 const RecentCompanies: NextPage = () => {

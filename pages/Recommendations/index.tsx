@@ -1,11 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Slider from "react-slick";
+import dynamic from "next/dynamic";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { recommendationsData } from "./data";
-import Next from '../Icons/next.svg'
-import Overlay from "../Components/Overlay";
+
+const Slider = dynamic(() => import("react-slick"), {
+  ssr: false,
+});
+
+const Next = dynamic(() => import("../Icons/next.svg"), {
+  ssr: false,
+});
+
+const Overlay = dynamic(() => import("../Components/Overlay"), {
+  ssr: false,
+});
 
 class Recommendations extends React.Component {
   constructor(props) {

@@ -1,7 +1,12 @@
 import { useEffect } from "react";
-import MobileHeader from "./mobile";
 import { style } from "./styles";
 import { webData } from './webData';
+
+import dynamic from "next/dynamic";
+const MobileHeader = dynamic(() => import("./mobile"), {
+    ssr: false,
+});
+
 
 const WebHeader = () => {
     useEffect(() => {

@@ -1,21 +1,52 @@
 import type { NextPage } from 'next';
+import dynamic from "next/dynamic";
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
-import AboutMe from './AboutMe';
-import Competitions from './Competitions';
-import Contact from './Contact';
-import Courses from './Courses';
-import Footer from './Footer';
-import WebHeader from './Header/web';
-import MinProjects from './MinProjects';
-import Projects from './Projects';
-import RecentCompanies from './RecentCompanies';
-import Recommendations from './Recommendations';
-import SocialConnection from './SocialConnection';
-import Summary from './Summary/index';
+import { motion, useScroll, useSpring } from "framer-motion";
+const AboutMe = dynamic(() => import("./AboutMe"), {
+  ssr: false,
+});
+const Competitions = dynamic(() => import("./Competitions"), {
+  ssr: false,
+});
+const Contact = dynamic(() => import("./Contact"), {
+  ssr: false,
+});
 
-import { motion, useScroll, useSpring, Variants } from "framer-motion";
-import ProjectsMobile from './Projects/mobile';
+const Summary = dynamic(() => import("./Summary"), {
+  ssr: false,
+});
+
+const Courses = dynamic(() => import("./Courses"), {
+  ssr: false,
+}); const Footer = dynamic(() => import("./Footer"), {
+  ssr: false,
+});
+const WebHeader = dynamic(() => import("./Header/web"), {
+  ssr: false,
+});
+
+const MinProjects = dynamic(() => import("./MinProjects"), {
+  ssr: false,
+});
+const Projects = dynamic(() => import("./Projects"), {
+  ssr: false,
+});
+const RecentCompanies = dynamic(() => import("./RecentCompanies"), {
+  ssr: false,
+});
+const SocialConnection = dynamic(() => import("./SocialConnection"), {
+  ssr: false,
+});
+
+const ProjectsMobile = dynamic(() => import("./Projects/mobile"), {
+  ssr: false,
+});
+
+const Recommendations = dynamic(() => import("./Recommendations"), {
+  ssr: false,
+});
+
 
 export async function getStaticProps() {
   return {
@@ -49,18 +80,18 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-        <WebHeader />
+      <WebHeader />
       {!loading ? <>
         <SocialConnection />
         <Summary />
-        <div style={{ maxWidth: 950, margin: '0px auto'}}>
+        <div style={{ maxWidth: 950, margin: '0px auto' }}>
           <AboutMe />
           <RecentCompanies />
           <Projects />
           <MinProjects />
           <Competitions />
           <Courses />
-          <ProjectsMobile/>
+          <ProjectsMobile />
           <Contact />
         </div>
         <Recommendations />

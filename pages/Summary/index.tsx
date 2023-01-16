@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import { TypeAnimation } from "react-type-animation";
 import { summaryData } from "./data";
-import { motion, useScroll, useSpring } from "framer-motion";
 import { style } from "./style";
 
 const Summary: NextPage = () => {

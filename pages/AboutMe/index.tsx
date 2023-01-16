@@ -1,11 +1,17 @@
 import type { NextPage } from "next";
-import Head from "next/head";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { style } from "./style";
-import Avatar from "../../public/avatar.jpg";
 import { aboutMeData } from "./data";
-import Overlay from "../Components/Overlay";
-import DownAnimation from "../Components/Animation/DownAnimation";
+import Avatar from "../../public/avatar.jpg";
+
+const Overlay = dynamic(() => import("../Components/Overlay"), {
+  ssr: false,
+});
+
+const DownAnimation = dynamic(() => import("../Components/Animation/DownAnimation"), {
+  ssr: false,
+});
 
 const AboutMe: NextPage = () => {
   return (
@@ -43,7 +49,7 @@ const AboutMe: NextPage = () => {
                 style={style.imageContainer}
               >
                 <Overlay>
-                  <Image id="imageAvatar" layout="responsive" src={Avatar} />
+                  <Image alt="abdulhadi-jarad-image" id="imageAvatar" layout="responsive" src={Avatar} />
                 </Overlay>
                 <div
                   id="backImage"
