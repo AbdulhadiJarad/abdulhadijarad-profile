@@ -31,10 +31,10 @@ const MobileHeader = () => {
 
         <div style={style.wrapper} className="mobileHeader">
             <input type="checkbox" checked={clicked} id="active" />
-            <img onClick={onClick} style={style.openIcon} src={Menu.src} />
+            <img onClick={onClick} style={style.openIcon} src={'/menu.svg'} />
             <div className="wrapper">
 
-                <img onClick={closeMenu} style={style.closeMenu} src={Close.src} />
+                <img onClick={closeMenu} style={style.closeMenu} src={'/close.svg'} />
                 <ul >
                     {webData.map((item, index) => <li key={item.id}><a rel="noreferrer" onClick={() => onClickRoute(item.id)} href="#home" style={{ fontSize: '4vmin' }}><span style={style.item}>0{index + 1}.</span> {item.name}</a></li>)}
                     <a rel="noreferrer" target={'_blank'} href="https://drive.google.com/file/d/1b7X4R9qIG08PttvcICn45qVEeAfpMMeJ/view?usp=sharing" id="resume" style={style.resume}>
