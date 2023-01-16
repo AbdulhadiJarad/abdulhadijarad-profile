@@ -12,14 +12,12 @@ const Footer = () => {
     const onMouseEnter = (name) => {
         const object = { ...activeIcons };
         object[name] = true;
-        console.log(object, "object");
         setActiveIcons({ ...object });
     };
 
     const onMouseOut = (name) => {
         const object = { ...activeIcons };
         object[name] = false;
-        console.log(object, "object");
         setActiveIcons({ ...object });
     };
 
@@ -31,9 +29,8 @@ const Footer = () => {
                 style={{ height: "20px", marginTop: '20px' }}
             >
                 <a target="_blank"
-                    href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/">
+                    href="https://www.facebook.com/abdalhady.jarad">
                     <Facebook isActive={activeIcons["face"]} />
-
                 </a>
             </div>
             <div
@@ -52,7 +49,7 @@ const Footer = () => {
                 style={{ marginTop: "20px", height: '20px' }}
             >
                 <a target="_blank"
-                    href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/">
+                    href="https://www.instagram.com/abd_alhadi_jarad/">
                     <InstagramIcon isActive={activeIcons["insta"]} />
 
                 </a>

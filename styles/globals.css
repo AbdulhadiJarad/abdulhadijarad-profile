@@ -41,9 +41,9 @@
   }
 }
 
- .projects-mobile {
-   display: none !important;
- }
+.projects-mobile {
+  display: none !important;
+}
 
 @media only screen and (max-width: 950px) {
   .projects-mobile {
@@ -263,6 +263,7 @@
     /* width: fit-content; */
     margin: 0px auto !important;
     margin-top: 20px !important;
+    margin-bottom: 100px !important;
     /* text-align: center; */
     padding: 0px;
     text-align: center;
@@ -298,7 +299,7 @@ body {
   font-family: PoppinsBold !important;
 }
 
-.medium{
+.medium {
   font-family: PoppinsMedium;
 }
 
@@ -356,7 +357,7 @@ span {
   width: 100% !important;
 }
 
-hr{
+hr {
   background-color: rgb(35, 53, 84);
 }
 
@@ -366,7 +367,7 @@ hr{
 
 .headingNumber {
   color: rgb(100, 255, 218);
-    font-family: PoppinsItalic !important;
+  font-family: PoppinsItalic !important;
 }
 
 .companyName {
@@ -10252,7 +10253,7 @@ section.next-prog.section-padding {
 
 #active:checked~.wrapper {
   clip-path: circle(75%);
-  
+
 }
 
 
@@ -10721,7 +10722,7 @@ h1 {
 
 
 .button-hover:hover {
-      background-color: rgb(100 255 218 / 20%) !important;
+  background-color: rgb(100 255 218 / 20%) !important;
 }
 
 #resume:hover {
@@ -10730,7 +10731,9 @@ h1 {
 
 #navbar a:hover {
   color: #64ffda;
-}.card {
+}
+
+.card {
   font-size: 164px;
   width: 300px;
   height: 430px;

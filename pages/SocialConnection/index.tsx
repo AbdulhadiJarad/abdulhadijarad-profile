@@ -36,7 +36,7 @@ const SocialConnection: NextPage = () => {
           style={{ marginTop: "20px", marginLeft: '-25px' }}
         >
           <a target="_blank"
-            href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/">
+            href="https://www.facebook.com/abdalhady.jarad">
             <Facebook isActive={activeIcons["face"]} />
           </a>
         </div>
@@ -55,7 +55,7 @@ const SocialConnection: NextPage = () => {
           style={{ marginTop: "20px", marginLeft: '-15px' }}
         >
           <a target="_blank"
-            href="https://www.linkedin.com/in/abdulhadi-jarad-a1871a6a/">
+            href="https://www.instagram.com/abd_alhadi_jarad/">
             <InstagramIcon isActive={activeIcons["insta"]} />
           </a>
         </div>
