@@ -12,14 +12,14 @@ function MyApp({ Component, pageProps }: AppProps) {
       <meta name="viewport" content="initial-scale=1, width=device-width" />
       <meta name="robots" content="index, follow" />
       <meta name="keywords" content="software engineer, software engineering, abdulhadi jarad,  blockchain, frontend, backend, fullstack, developer, damascus university "></meta>
-      <meta property="og:image" content="https://abdulhadijarad.github.io/profile/publicImage.png" />
+      <meta property="og:image" content="%PUBLIC_URL%/publicImage.png" />
       <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:alt" content="https://abdulhadijarad.github.io/profile/publicImage.png" />
-      <meta property="thumbnail" content="https://abdulhadijarad.github.io/profile/publicImage.png" />
-      <meta property="image" content={'https://abdulhadijarad.github.io/profile/publicImage.png'} />
+      <meta property="og:image:alt" content="%PUBLIC_URL%/publicImage.png" />
+      <meta property="thumbnail" content="%PUBLIC_URL%/publicImage.png" />
+      <meta property="image" content={'%PUBLIC_URL%/publicImage.png'} />
       <meta property="og:title" content={'Abdulhadi Jarad'} />
-      <meta property="og:image:secure" content={'https://abdulhadijarad.github.io/profile/publicImage.png'} />
-      <meta property="og:image:url" content={'https://abdulhadijarad.github.io/profile/publicImage.png'} />
+      <meta property="og:image:secure" content={'%PUBLIC_URL%/publicImage.png'} />
+      <meta property="og:image:url" content={'%PUBLIC_URL%/publicImage.png'} />
       <meta property="og:site_name" content="Abdulhadi Jarad" />
       <meta property="og:description" content="Diligent software full-stack engineer with four years of experience. I Developed and maintained Web Applications with React" />
       <meta property="og:type" content="website" />
