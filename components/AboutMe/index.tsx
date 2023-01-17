@@ -33,19 +33,19 @@ const AboutMe: NextPage = () => {
                 I am a JavaScript, TypeScript and dApp developer with some limited experience in Blockchain, Machine Learning and information retrieval techniques.
                 Writing well-documented code, that is readable, reusable, scalable, and efficient, is at the top of my priority list.
                 <li>
-                    I have used react as my primary frontend library and frameworks (NextJS) to enhanse the SEO. To create responsive designs.
+                    I have used react as my primary frontend library and frameworks <span style={{color: 'rgb(100, 255, 218)', opacity: '0.7'}}>  (NextJS) </span> to enhanse the SEO. To create responsive designs.
                     I prefer wearing a well-coded style from styling libraries such as Material UI & ant design.
                 </li>
 
                 <li>
                     For building rest API and managing DB, I have used express library in NodeJS.
-                    I have developed MERN stack projects from requirement gathering to testing and release.
-                    I have used testing tools such as jest (unit test) with 70% coverage.
-                    cypress (end-to-end tests) to extensively test my code.
+                    I have developed <span style={{ color: 'rgb(100, 255, 218)', opacity: '0.7' }}>  MERN stack projects </span>   from requirement gathering to testing and release.
+                    I have used testing tools such as jest  <span style={{ color: 'rgb(100, 255, 218)', opacity: '0.7' }}>  (unit test)</span> with 70% coverage. <span style={{ color: 'rgb(100, 255, 218)', opacity: '0.7' }}>  cypress </span>  (end-to-end tests) to extensively test my code.
                 </li>
 
                 <li>
-                    As a software engineer, I managed teams in some projects as a scrum master and technical leader. Insure that the quality of the team's code is as much as possible with the deadline.
+                    As a software engineer, I managed teams in some projects as a 
+                    <span style={{ color: 'rgb(100, 255, 218)', opacity: '0.7' }}>  scrum master </span> and technical leader. Insure that the quality of the team's code is as much as possible with the deadline.
                     Graduated from Damascus university this year with a good grade.
                 </li>
                   <li> Here are a few technologies I’ve been working with recently:</li>

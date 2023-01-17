@@ -21,7 +21,7 @@ const RecentCompanies: NextPage = () => {
           <>
             <section style={{ color: "#ccd6f6", fontSize: 20, marginTop: index !== 0 ? '90px' : '30px' }}>
               {item.position}{" "}
-              <span className="companyName italic">@ {item.company}</span>
+              <span className="companyName italic">@ <a rel="noreferrer" target={'_blank'} href={item.link}>{item.company}</a></span>
             </section>
             <section className="italic" style={{ color: "#ccd6f6", fontSize: 12 }}>
               {item.date}

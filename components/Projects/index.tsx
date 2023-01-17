@@ -76,7 +76,7 @@ const Projects: NextPage = () => {
           <section style={{ width: '500px', position: 'relative', height: 'fit-content', marginBottom: 'auto', marginTop: 'auto', }}>
             <p style={{ textAlign: 'right', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
             <p style={{ textAlign: 'right', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
-            <section style={{ backgroundColor: '#112240', color: '#a8b2d1m', fontSize: '15px', padding: '20px', zIndex: 99, }}>
+            <section style={{ backgroundColor: '#112240', color: 'rgb(136, 146, 176)', fontSize: '15px', padding: '20px', zIndex: 99, }}>
               <p>
                 an immersive e-learning platform for the Arab world to develop personal and professional skills.
                 <br/>I worked as a frontend technical leader. 
