@@ -73,7 +73,7 @@ const AboutMe: NextPage = () => {
                 style={style.imageContainer}
               >
                 <Overlay>
-                  <img style={{width: '280px', height: '300px'}} alt="abdulhadi-jarad-image" id="imageAvatar"  src={'/avatar.jpg'} />
+                  <img style={{width: '280px', height: '300px'}} alt="abdulhadi-jarad-image" id="imageAvatar"  src={'avatar.jpg'} />
                 </Overlay>
                 <div
                   id="backImage"
