@@ -53,8 +53,14 @@ const Summary: NextPage = () => {
             />
           </span>
         </section>
-        <p className="italic" style={style.summary}>{summaryData.description}</p>
+        <p className="italic" style={style.summary}>Diligent software full-stack engineer with four years of experience.
+          I Developed and maintained Web Applications with React, Vue, Angular, and
+          Next (React framework) as a frontend developer and NodeJS as a backend
+          developer.</p>
+        <a rel="noreferrer" href="mailto:abdulhadi.jarad@gmail.com" 
+        >
         <button className="button-hover medium" style={style.contactMe}>Contact Me !</button>
+        </a>
       </section>
     </section>
   );

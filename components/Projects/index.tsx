@@ -2,6 +2,7 @@ import { motion, Variants } from "framer-motion";
 import type { NextPage } from "next";
 import { style } from "./styles";
 import MindMover from "../../images/mindmovers.jpg";
+import Overlay from "../../shared/Overlay";
 
 interface Props {
   cardVariants: Variants;
@@ -66,7 +67,9 @@ const Projects: NextPage = () => {
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px', width: '100%' }}>
         <Card cardVariants={cardVariants}>
           <div style={{ flexBasis: '130%' }}>
-            <img src={'/mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }}  />
+              <a target={'_blank'} href="mindmovers.com">
+              <img src={'/mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }} />
+              </a>
           </div>
         </Card>
         <div style={{ textAlign: 'right', height: '100%' }}>
@@ -75,14 +78,17 @@ const Projects: NextPage = () => {
             <p style={{ textAlign: 'right', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
             <section style={{ backgroundColor: '#112240', color: '#a8b2d1m', fontSize: '15px', padding: '20px', zIndex: 99, }}>
               <p>
-                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
+                an immersive e-learning platform for the Arab world to develop personal and professional skills.
+                <br/>I worked as a frontend technical leader. 
+                <br/>
+                <a target={'_blank'} href="mindmovers.com"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
               </p>
             </section>
             <section style={{ display: 'flex', marginTop: '10px', flexBasis: '100%', justifyContent: 'flex-end', gap: '40px' }}>
               <p>NextJs</p>
-              <p>GraphQl</p>
-              <p>NextJs</p>
-              <p>GraphQl</p>
+              <p>Material UI5</p>
+              <p>GraphQL</p>
+              <p>Stripe</p>
             </section>
           </section>
         </div>
@@ -90,26 +96,31 @@ const Projects: NextPage = () => {
       {/*  */}
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px' }}>
 
-        <div style={{ textAlign: 'left', flexBasis: '100%', position: 'relative', height: '100%' }}>
-          <section style={{ width: '500px', zIndex: 99, position: 'absolute', height: 'fit-content', bottom: 0, top: 0, marginBottom: 'auto', marginTop: 'auto', }}>
+        <div style={{ textAlign: 'left', flexBasis: '100%', position: 'relative', height: '100%', }}>
+          <section style={{ width: '500px', zIndex: 99999, position: 'absolute', height: 'fit-content', bottom: 0, top: 0, marginBottom: 'auto', marginTop: 'auto', }}>
             <p style={{ textAlign: 'left', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
-            <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
+            <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(21px, 5vw, 18px)' }}>Blockchain Lifelong Learning Record</p>
             <section style={{ backgroundColor: '#112240', color: '#a8b2d1m', fontSize: '15px', padding: '20px', zIndex: 99, }}>
               <p>
-                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
-
-              </p>            </section>
+                The Project is a platform that enable learners to move their learning records from one institution to another in a secure and verifiable format.
+                I worked as dApp Developer using React & Web3.js
+                <br />
+                <a target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+              </p>           
+               </section>
             <section style={{ display: 'flex', marginTop: '10px', justifyContent: 'flex-start', gap: '40px' }}>
-              <p>NextJs</p>
-              <p>GraphQl</p>
-              <p>NextJs</p>
-              <p>GraphQl</p>
+              <p>ReactJS</p>
+              <p>Solidaty</p>
+              <p>NodeJS</p>
+              <p>Web3</p>
             </section>
           </section>
         </div>
-        <div style={{ flexBasis: '130%' }}>
+        <div style={{ flexBasis: '130%', }}>
           <Card cardVariants={cardVariantsSettings}>
-            <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={'/mindmovers.jpg'} />
+            <Overlay>
+              <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={'/gp.jpg'} />
+            </Overlay>
           </Card>
         </div>
       </section>

@@ -88,10 +88,10 @@ const Home: NextPage = () => {
           <AboutMe />
           <RecentCompanies />
           <Projects />
+          <ProjectsMobile />
           <MinProjects />
           <Competitions />
           <Courses />
-          <ProjectsMobile />
           <Contact />
         </div>
         <Recommendations />

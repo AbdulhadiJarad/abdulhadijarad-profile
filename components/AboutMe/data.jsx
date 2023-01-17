@@ -4,11 +4,16 @@ export const aboutMeData = {
         'Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start - up, a huge corporation, and a student - led design studio.My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a vriety of clients I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.',
     ],
     skills: [
-        'JavaScript (ES6+)',
+        'JS (ES6+)',
         'TypeScript',
-        'React',
+        'ReactJS/TS',
+        'NextJS/TS',
         'Node.js',
-        'WordPress',
-        'Eleventy'
+        'SQL',
+        'MongoDB',
+        'Blockchain',
+        'Solidity',
+        'ML',
+
     ]
 }

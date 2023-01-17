@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import { recentCompaniesData } from "./data";
 import { style } from "./styles";
+import { Fragment } from "react";
 import dynamic from "next/dynamic";
 const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation"), {
   ssr: false,
@@ -15,10 +16,10 @@ const RecentCompanies: NextPage = () => {
         </span>{" "}
         <hr style={style.headingDivider}></hr>
       </section>
-      {recentCompaniesData.map((item) => (
-        <div key={item.company}>
+      {recentCompaniesData.map((item, index) => (
+        <Fragment key={item.company}>
           <>
-            <section style={{ color: "#ccd6f6", fontSize: 20, marginTop: 30 }}>
+            <section style={{ color: "#ccd6f6", fontSize: 20, marginTop: index !== 0 ? '90px' : '30px' }}>
               {item.position}{" "}
               <span className="companyName italic">@ {item.company}</span>
             </section>
@@ -26,7 +27,7 @@ const RecentCompanies: NextPage = () => {
               {item.date}
             </section>
 
-            <DownAnimation>
+            {/* <DownAnimation> */}
               <p
                 style={{
                   width: "90%",
@@ -42,9 +43,9 @@ const RecentCompanies: NextPage = () => {
                   ))}
                 </ul>
               </p>
-            </DownAnimation>
+            {/* </DownAnimation> */}
           </>
-        </div>
+        </Fragment>
       ))}
     </section>
   );

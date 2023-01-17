@@ -33,7 +33,7 @@ const style: { [key: string]: React.CSSProperties } = {
     mainInfo: {
         fontSize: 'clamp(40px, 8vw, 80px)'
     },
-    text: { color: 'rgb(136, 146, 176)', fontSize: '18px' },
+    text: { color: 'rgb(136, 146, 176)', fontSize: '18px', marginTop: '30px' },
     wrapper: { width: '70%', margin: '0px auto' },  
     myNameIs: {
         'color': '#ccd6f6',

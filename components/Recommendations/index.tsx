@@ -110,8 +110,7 @@ class Recommendations extends React.Component {
                   </div>
                   <div className="valign">
                     <div className="textA">
-                      <p style={{ color: 'rgb(136, 146, 176)', fontSize: '18px' }}>
-
+                      <p style={{ color: 'rgb(136, 146, 176)', fontSize: '15px', textAlign: 'center' }}>
                         {item.description}
                       </p>
                     </div>

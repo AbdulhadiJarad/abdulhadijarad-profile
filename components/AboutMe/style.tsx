@@ -15,7 +15,7 @@ const style: { [key: string]: React.CSSProperties } = {
     backImage: {
         position: "absolute",
         right: -20,
-        top: 20,
+        top: 8,
         border: "solid #ccd6f6 2px",
     },
     myNameIs: {
@@ -31,7 +31,6 @@ const style: { [key: string]: React.CSSProperties } = {
         maxWidth: '100%',
         color: 'rgb(136, 146, 176)',
         fontSize: '18px',
-        width: '90%',
         margin:'0px auto'
     },
     avatar: {
