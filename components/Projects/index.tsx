@@ -68,7 +68,7 @@ const Projects: NextPage = () => {
         <Card cardVariants={cardVariants}>
           <div style={{ flexBasis: '130%' }}>
             <a rel="noreferrer" target={'_blank'} href="mindmovers.com">
-              <img src={'/mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }} />
+              <img src={'mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }} />
               </a>
           </div>
         </Card>
@@ -119,7 +119,7 @@ const Projects: NextPage = () => {
         <div style={{ flexBasis: '130%', }}>
           <Card cardVariants={cardVariantsSettings}>
             <Overlay>
-              <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={'/gp.jpg'} />
+              <img alt="abdulhadi jarad blockchain life long learning record" style={{ width: '100%' }} src={'gp.jpg'} />
             </Overlay>
           </Card>
         </div>

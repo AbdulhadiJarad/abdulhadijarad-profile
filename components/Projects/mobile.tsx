@@ -13,7 +13,7 @@ const ProjectsMobile: NextPage = () => {
             <section style={{ display: 'flex', alignItems: 'center', margin: '0px auto', marginTop: '60px', width: '100%' }}>
                 <div style={{ flexBasis: '130%', position: 'relative' }}>
                     <div style={{ zIndex: 1 }} className='imgContainer' >
-                        <img style={{ width: '100%', height: '400px' }} src={'/mindmovers.jpg'} />
+                        <img style={{ width: '100%', height: '400px' }} src={'mindmovers.jpg'} />
 
                         <div className="projectsOverlay">
                         </div>
@@ -56,7 +56,7 @@ const ProjectsMobile: NextPage = () => {
             <section style={{ display: 'flex', alignItems: 'center', margin: '0px auto', marginTop: '60px', width: '100%' }}>
                 <div style={{ flexBasis: '130%', position: 'relative' }}>
                     <div style={{ zIndex: 1 }} className='imgContainer' >
-                        <img style={{ width: '100%', height: '400px' }} src={'/gp.jpg'} />
+                        <img style={{ width: '100%', height: '400px' }} src={'gp.jpg'} />
                         <div className="projectsOverlay">
                         </div>
                     </div>
