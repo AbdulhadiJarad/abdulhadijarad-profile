@@ -20,8 +20,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <meta property="og:title" content={'Abdulhadi Jarad'} />
       <meta property="og:image:secure" content={'/publicImage.png'} />
       <meta property="og:image:url" content={'/publicImage.png'} />
-      <meta property="og:site_name" content="AbdulhadiJarad" />
-      <meta property="og:description" content="Abdulhadi Jarad is a fullstack software engineer with 4 years of experience" />
+      <meta property="og:site_name" content="Abdulhadi Jarad" />
+      <meta property="og:description" content="Diligent software full-stack engineer with four years of experience. I Developed and maintained Web Applications with React" />
       <meta property="og:type" content="website" />
       <link rel="shortcut icon" href="/mm-fav.svg" />
       <link rel="shortcut icon" href="/mindmovers-logo.svg" />

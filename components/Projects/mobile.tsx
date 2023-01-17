@@ -38,7 +38,7 @@ const ProjectsMobile: NextPage = () => {
                                             an immersive e-learning platform for the Arab world to develop personal and professional skills.
                                             <br />I worked as a frontend technical leader.
                                             <br />
-                                            <a target={'_blank'} href="mindmovers.com"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                                            <a rel="noreferrer" target={'_blank'} href="mindmovers.com"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
                                         </p>                                 </section>
                                     <section style={{ display: 'flex', marginTop: '10px', justifyContent: 'flex-start', gap: '40px' }}>
                                         <p>NextJs</p>
@@ -80,7 +80,7 @@ const ProjectsMobile: NextPage = () => {
                                             The Project is a platform that enable learners to move their learning records from one institution to another in a secure and verifiable format.
                                             I worked as dApp Developer using React & Web3.js
                                             <br />
-                                            <a target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                                            <a rel="noreferrer" target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
                                         </p>                                    </section>
                                     <section style={{ display: 'flex', marginTop: '10px', justifyContent: 'flex-start', gap: '40px' }}>
                                         <p>ReactJS</p>

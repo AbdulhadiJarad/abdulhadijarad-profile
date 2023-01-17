@@ -45,10 +45,10 @@ const AboutMe: NextPage = () => {
 
                 <li>
                     As a software engineer, I managed teams in some projects as a 
-                    <span style={{ color: 'rgb(100, 255, 218)', opacity: '0.7' }}>  scrum master </span> and technical leader. Insure that the quality of the team's code is as much as possible with the deadline.
+                    <span style={{ color: 'rgb(100, 255, 218)', opacity: '0.7' }}>  scrum master </span> and technical leader. Insure that the quality of the team&#39;s code is as much as possible with the deadline.
                     Graduated from Damascus university this year with a good grade.
                 </li>
-                  <li> Here are a few technologies I’ve been working with recently:</li>
+                  <li> Here are a few technologies I have been working with recently:</li>
                 </ul>
                 </p>
               <p style={style.summary}>

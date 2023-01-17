@@ -67,7 +67,7 @@ const Projects: NextPage = () => {
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px', width: '100%' }}>
         <Card cardVariants={cardVariants}>
           <div style={{ flexBasis: '130%' }}>
-              <a target={'_blank'} href="mindmovers.com">
+            <a rel="noreferrer" target={'_blank'} href="mindmovers.com">
               <img src={'/mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }} />
               </a>
           </div>
@@ -105,7 +105,7 @@ const Projects: NextPage = () => {
                 The Project is a platform that enable learners to move their learning records from one institution to another in a secure and verifiable format.
                 I worked as dApp Developer using React & Web3.js
                 <br />
-                <a target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                <a rel="noreferrer" target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
               </p>           
                </section>
             <section style={{ display: 'flex', marginTop: '10px', justifyContent: 'flex-start', gap: '40px' }}>
