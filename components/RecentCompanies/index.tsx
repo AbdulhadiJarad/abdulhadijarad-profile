@@ -7,7 +7,7 @@ const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation
   ssr: false,
 });
 
-const RecentCompanies: NextPage = () => {
+const RecentCompanies = () => {
   return (
     <section id="experience" className="startups" style={style.root}>
       <section className="headingWrapper">

@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { style } from "./styles";
 
-const ProjectsMobile: NextPage = () => {
+const ProjectsMobile = () => {
     return (
         <section id="featuredMobile" className="startups projects-mobile" style={style.root}>
             <section className="headingWrapper">
@@ -34,7 +34,7 @@ const ProjectsMobile: NextPage = () => {
                                     <p style={{ textAlign: 'left', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
                                     <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
                                     <section style={{ backgroundColor: '#112240', color: '#ccd6f6', fontSize: '15px', padding: '20px', zIndex: 99, }}>
-                                        <p>
+                                        <p style={{ color: 'rgb(136, 146, 176)'}}>
                                             an immersive e-learning platform for the Arab world to develop personal and professional skills.
                                             <br />I worked as a frontend technical leader.
                                             <br />
@@ -66,7 +66,7 @@ const ProjectsMobile: NextPage = () => {
                         // left: '50%',
                         width: '90%',
                         left: '50%',
-                        zIndex: 2,
+                        zIndex: 2, 
                         transform: 'translate(-50%, -50%)',
                     }}>
                         <section style={{ display: 'flex', alignItems: 'center', width: '100%', opacity: '1', zIndex: 99999 }}>
@@ -76,11 +76,11 @@ const ProjectsMobile: NextPage = () => {
                                     <p style={{ textAlign: 'left', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
                                     <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(21px, 5vw, 18px)' }}>Blockchain Lifelong Learning Record</p>
                                     <section style={{ backgroundColor: '#112240', color: '#ccd6f6', fontSize: '15px', padding: '20px', zIndex: 99, }}>
-                                        <p>
+                                        <p style={{ color: 'rgb(136, 146, 176)'}}>
                                             The Project is a platform that enable learners to move their learning records from one institution to another in a secure and verifiable format.
                                             I worked as dApp Developer using React & Web3.js
                                             <br />
-                                            <a rel="noreferrer" target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                                            <a rel="noreferrer" target={'_blank'} href="https://gitlab.com/AbdulhadiJarad/llrs-gp-admin"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
                                         </p>                                    </section>
                                     <section style={{ display: 'flex', marginTop: '10px', justifyContent: 'flex-start', gap: '40px' }}>
                                         <p>ReactJS</p>

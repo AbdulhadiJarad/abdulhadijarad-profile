@@ -6,7 +6,7 @@ import Gitlab from "../Icons/gitlab";
 import Linkedin from "../Icons/linkedin";
 import Facebook from "../Icons/facebook";
 
-const SocialConnection: NextPage = () => {
+const SocialConnection = () => {
 
   const [activeIcons, setActiveIcons] = useState<{ [key: string]: boolean }>();
 

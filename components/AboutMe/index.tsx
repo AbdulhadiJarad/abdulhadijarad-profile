@@ -14,7 +14,7 @@ const DownAnimation = dynamic(() => import("../../shared/Animation/DownAnimation
   ssr: false,
 });
 
-const AboutMe: NextPage = () => {
+const AboutMe = () => {
   return (
     <section id="about" className="aboutMeSection" style={style.root}>
       <section style={style.intro}>

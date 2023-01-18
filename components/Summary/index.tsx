@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { summaryData } from "./data";
 import { style } from "./style";
 
-const Summary: NextPage = () => {
+const Summary = () => {
 
   return (
     <section className="layout" style={style.root}>

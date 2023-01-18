@@ -14,7 +14,7 @@ const Overlay = dynamic(() => import("../../shared/Overlay"), {
 
 
 
-const Courses: NextPage = () => {
+const Courses = () => {
 
   return (
     <section id="courses" className="courses" style={style.root}>

@@ -55,7 +55,7 @@ function Card({ cardVariants, children }: Props) {
   );
 }
 
-const Projects: NextPage = () => {
+const Projects = () => {
   return (
     <section className="startups projects-web" style={style.root}>
       <section className="headingWrapper">
@@ -76,8 +76,9 @@ const Projects: NextPage = () => {
           <section style={{ width: '500px', position: 'relative', height: 'fit-content', marginBottom: 'auto', marginTop: 'auto', }}>
             <p style={{ textAlign: 'right', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
             <p style={{ textAlign: 'right', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(24px, 5vw, 28px)' }}>Mind Movers</p>
-            <section style={{ backgroundColor: '#112240', color: 'rgb(136, 146, 176)', fontSize: '15px', padding: '20px', zIndex: 99, }}>
-              <p>
+            <section style={{ backgroundColor: '#112240',  fontSize: '15px', padding: '20px', zIndex: 99, }}>
+              <p style={{ color: 'rgb(136, 146, 176)'}}>
+                
                 an immersive e-learning platform for the Arab world to develop personal and professional skills.
                 <br/>I worked as a frontend technical leader. 
                 <br/>
@@ -100,12 +101,11 @@ const Projects: NextPage = () => {
           <section style={{ width: '500px', zIndex: 99999, position: 'absolute', height: 'fit-content', bottom: 0, top: 0, marginBottom: 'auto', marginTop: 'auto', }}>
             <p style={{ textAlign: 'left', color: '#64ffda', fontWeight: '400' }}>Featured Project</p>
             <p style={{ textAlign: 'left', color: '#ccd6f6', fontWeight: '600', fontSize: 'clamp(21px, 5vw, 18px)' }}>Blockchain Lifelong Learning Record</p>
-            <section style={{ backgroundColor: '#112240', color: '#a8b2d1m', fontSize: '15px', padding: '20px', zIndex: 99, }}>
-              <p>
-                The Project is a platform that enable learners to move their learning records from one institution to another in a secure and verifiable format.
-                I worked as dApp Developer using React & Web3.js
+            <section style={{ backgroundColor: '#112240',  fontSize: '15px', padding: '20px', zIndex: 99, }}>
+              <p style={{ color: 'rgb(136, 146, 176)'}}>
+                The Project is a platform that enables learners to move their learning records from one institution to another in a secure and verifiable format. I worked as a dApp Developer using React & Web3.js
                 <br />
-                <a rel="noreferrer" target={'_blank'} href="https://www.youtube.com/watch?v=ZBVQ-p0knCo"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                <a rel="noreferrer" target={'_blank'} href="https://gitlab.com/AbdulhadiJarad/llrs-gp-admin"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
               </p>           
                </section>
             <section style={{ display: 'flex', marginTop: '10px', justifyContent: 'flex-start', gap: '40px' }}>

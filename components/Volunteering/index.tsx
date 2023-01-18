@@ -3,7 +3,7 @@ import English from '../../public/tamyouz.jpg';
 import TED from '../../public/ted.jpg';
 import { style } from "./style";
 
-const Volunteering: NextPage = () => {
+const Volunteering = () => {
   
   return (
     <section style={style.root}>
