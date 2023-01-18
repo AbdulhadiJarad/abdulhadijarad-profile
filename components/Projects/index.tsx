@@ -67,7 +67,7 @@ const Projects = () => {
       <section style={{ display: 'flex', alignItems: 'center', marginTop: '60px', width: '100%' }}>
         <Card cardVariants={cardVariants}>
           <div style={{ flexBasis: '130%' }}>
-            <a rel="noreferrer" target={'_blank'} href="mindmovers.com">
+            <a rel="noreferrer" target={'_blank'} href="https://mindmovers.com/">
               <img src={'mindmovers.jpg'} alt="abdulhadi mindmovers" style={{ width: '120%' }} />
               </a>
           </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                 an immersive e-learning platform for the Arab world to develop personal and professional skills.
                 <br/>I worked as a frontend technical leader. 
                 <br/>
-                <a target={'_blank'} href="mindmovers.com"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                <a target={'_blank'} href="https://mindmovers.com/"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
               </p>
             </section>
             <section style={{ display: 'flex', marginTop: '10px', flexBasis: '100%', justifyContent: 'flex-end', gap: '40px' }}>

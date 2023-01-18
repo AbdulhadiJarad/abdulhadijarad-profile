@@ -34,7 +34,7 @@ const AboutMe = () => {
                 Writing well-documented code, that is readable, reusable, scalable, and efficient, is at the top of my priority list.
                 <li>
                     I have used react as my primary frontend library and frameworks <span style={{color: 'rgb(100, 255, 218)', opacity: '0.7'}}>  (NextJS) </span> to enhanse the SEO. To create responsive designs.
-                    I prefer wearing a well-coded style from styling libraries such as Material UI & ant design.
+                    I prefer coding a well-coded style from styling libraries such as Material UI & ant design.
                 </li>
 
                 <li>
