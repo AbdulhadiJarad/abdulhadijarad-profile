@@ -30,7 +30,7 @@ const Courses = () => {
           <section className="coursesWrapper" style={{ ...style.coursesWrapper, marginTop: index === 0 ? '50px' : '20px', flexWrap: 'wrap', flexDirection: (index + 1) % 2 == 0 ? 'row-reverse' : 'row' }}>
             <div className="courseDescription" style={style.wrapper}>
               <section style={{ ...style.myNameIs, fontSize: '17px' }}>
-                1.{index + 1} {course.name}
+                5.{index + 1} {course.name}
               </section>
               <p style={style.description}>
                 {course.description}
