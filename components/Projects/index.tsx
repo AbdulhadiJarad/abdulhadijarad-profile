@@ -82,7 +82,7 @@ const Projects = () => {
                 an immersive e-learning platform for the Arab world to develop personal and professional skills.
                 <br/>I worked as a frontend technical leader. 
                 <br/>
-                <a target={'_blank'} href="https://mindmovers.com/"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
+                <a rel="noreferrer" target={'_blank'} href="https://mindmovers.com/"><span style={{ color: 'rgb(100, 255, 218)' }}>Discover</span></a>
               </p>
             </section>
             <section style={{ display: 'flex', marginTop: '10px', flexBasis: '100%', justifyContent: 'flex-end', gap: '40px' }}>
